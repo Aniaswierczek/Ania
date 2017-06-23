@@ -7,6 +7,8 @@
     <meta name="keywords" content="tekst" />
     <meta name="description" content="tekst" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="smoothScroll.js"></script>
 
 </head>
 
@@ -36,8 +38,30 @@
 
 
     <div id="strzalka">
-        <a href="#czerwony"> <img src="strza%C5%82ka.png" height="100%" width="100%" /></a>
+        <a href="#onas"> <img src="strza%C5%82ka.png" height="100%" width="100%" /></a>
     </div>
+
+    <script>
+        $('a[href^="#"]').on('click', function(e) {
+            var el = $(e.target.getAttribute('href'));
+            var elOffset = el.offset().top;
+            var elHeight = el.height();
+            var windowHeight = $(window).height();
+            var offset;
+
+            if (elHeight < windowHeight) {
+                offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+            } else {
+                offset = elOffset;
+            }
+
+            $.smoothScroll({
+                speed: 700
+            }, offset);
+            return false;
+        });
+
+    </script>
 
 
 
