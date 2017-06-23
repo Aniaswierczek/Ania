@@ -1,13 +1,21 @@
 #menu {
     min-height: 70px;
     line-height: 70px;
-    background-color: black;
+    background-color: white;
     text-align: center;
     position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
-    opacity:
+}
+
+#menu img {
+    width: 200px;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 5px;
+    left: 15%;
 }
 
 #menu>ul>li {
@@ -20,7 +28,7 @@
 
 #menu>ul>li>a {
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
     padding-left: 20px;
     padding-right: 20px;
