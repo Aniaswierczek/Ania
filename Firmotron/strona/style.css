@@ -33,20 +33,20 @@
     color: black;
 }
 
-#onas {
-    background-color: red;
+#onas div {
+    background-color: rgba(0, 255, 0, 0.3);
 }
 
-#oferta {
-    background-color: orange;
+#oferta div {
+    background-color: rgba(255, 0, 0, 0.3);
 }
 
-#portfolio {
-    background-color: yellow;
+#portfolio div {
+    background-color: rgba(0, 0, 255, 0.3);
 }
 
-#kontakt {
-    background-color: green;
+#kontakt div {
+    background-color: rgba(255, 255, 0, 0.3);
 }
 
 
@@ -59,12 +59,25 @@
     min-width: 600px;
     width: 70%;
     margin: auto;
-    background-color: white;
-    border: 1px dotted gray;
+}
+#strzalka a:visited {
+    text-decoration: none;
+    color: white;
+}
+#strzalka a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
 }
 #strzalka {
     border: 1px solid black;
     background-color: black;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
     position: fixed;
     bottom: 24px;
     right: 24px;
