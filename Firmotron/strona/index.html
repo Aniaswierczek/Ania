@@ -38,11 +38,12 @@
 
 
     <div id="strzalka">
-        <a href="#onas"> <img src="strza%C5%82ka.png" height="100%" width="100%" /></a>
+        <a href="#onas"> &#94;</a>
     </div>
 
     <script>
         $('a[href^="#"]').on('click', function(e) {
+            console.log(this);
             var el = $(e.target.getAttribute('href'));
             var elOffset = el.offset().top;
             var elHeight = el.height();
