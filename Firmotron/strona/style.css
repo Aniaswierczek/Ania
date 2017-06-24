@@ -55,7 +55,7 @@
 
 #li1:hover {
     background-color: rgba(0, 255, 0, 0.3);
-    color: rgba(255, 0, 0, 20) ;
+    color: rgba(255, 0, 0, 20);
 }
 #li2:hover {
     background-color: rgba(255, 0, 0, 0.3);
@@ -92,7 +92,7 @@
 
 .kolor>div {
     height: 450px;
-    min-width: 600px;
+    min-width: 70%;
     width: 70%;
     margin: auto;
 }
@@ -130,7 +130,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 450px;
-    min-width: 600px;
+    min-width: 70%;
     width: 70%;
     margin: auto;
 }
@@ -151,10 +151,10 @@ body {
 #stopka {
     background-color: red;
     height:  50px;
-    min-width: 600px;
+    min-width: 70%;
     width: 70%;
-    line-height: 50px;
     margin: auto;
+    line-height: 50px;
     text-align: center;
     color: black;
 }
@@ -173,13 +173,12 @@ body {
 
     #menu {
         width: 100%;
-/*        height: 50px;*/
-        line-height: 50px;
+        height: 200px;
+        line-height: 100%;
         position: fixed;
         top: 70px;
         right: 0;
         left: 0;
-/*        display: none;*/
         background-color: none;
         
     }
@@ -191,28 +190,28 @@ body {
     }
     
     #li1{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
     
     #li2{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
     
     #li3{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
     
     #li4{
-        width: 70%;
+        min-width: 100%;min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
@@ -221,22 +220,22 @@ body {
     #li1:hover {
         background-color: rgba(0, 255, 0, 0.3);
         color: rgba(255, 0, 0, 20) ;
-        width: 69%;
+        width: 100%;
     }
     #li2:hover {
         background-color: rgba(255, 0, 0, 0.3);
         color: rgba(200, 255, 50, 10);
-        width: 69%;
+        width: 100%;
     }
     #li3:hover {
         background-color: rgba(0, 0, 255, 0.3);
         color: rgba(255, 255, 0, 20);
-        width: 69%;
+        width: 100%;
     }
     #li4:hover {
         background-color: rgba(255, 255, 0, 0.3);
         color: rgba(0, 0, 255, 20);
-        width: 69%;
+        width: 100%;
     }
 
     button {
@@ -276,7 +275,7 @@ body {
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 1024px){
 
     #logo2 {
         visibility: hidden;
@@ -290,421 +289,69 @@ body {
 
     #menu {
         width: 100%;
-/*        height: 50px;*/
-        line-height: 50px;
+        height: 200px;
+        line-height: 300%;
         position: fixed;
         top: 70px;
         right: 0;
         left: 0;
-/*        display: none;*/
         background-color: none;
-        
+
     }
-    
+
     ul.menu2 li{
         float: none;
         width: 100%;
         background-color: white;
     }
-    
+
     #li1{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
-    
+
     #li2{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
-    
+
     #li3{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
-    
+
     #li4{
-        width: 70%;
+        min-width: 100%;min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
-    
+
     #li1:hover {
         background-color: rgba(0, 255, 0, 0.3);
         color: rgba(255, 0, 0, 20) ;
-        width: 98.5%;
+        width: 100%;
     }
     #li2:hover {
         background-color: rgba(255, 0, 0, 0.3);
         color: rgba(200, 255, 50, 10);
-        width: 98.5%;
+        width: 100%;
     }
     #li3:hover {
         background-color: rgba(0, 0, 255, 0.3);
         color: rgba(255, 255, 0, 20);
-        width: 98.5%;
+        width: 100%;
     }
     #li4:hover {
         background-color: rgba(255, 255, 0, 0.3);
         color: rgba(0, 0, 255, 20);
-        width: 98.5%;
-    }
-
-    button {
-        visibility: visible;
-        display: block;
-        width: 44px;
-        height: 44px;
-        margin: 5px;
-        text-align: center;
-        background-repeat: repeat-x;
-        color: white;
-        padding-top: 10px;
-        top: 2px; 
-        cursor: pointer;
-        border: 1px solid black;
-        background-color: black;
-        line-height: 50px;
-        text-align: center;
-        position: fixed;
-        right: 24px;
-    }
-
-    span {
-        background-color: white;
-        border-radius: 1px 1px 1px 1px;
-        display: block;
-        height: 2px;
-        width: 18px;
-        margin: 4px auto;
-    }
-
-    #paski{
-        margin-bottom: 10px;
-        cursor: pointer;
-    }
-
-
-}
-
-@media screen and (max-width: 800px){
-
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
-        display: inline-block;
-        float: left;
-        position: absolute;
-        top: 5px;
-        left: 15%;
-    }
-
-    #menu {
         width: 100%;
-/*        height: 50px;*/
-        line-height: 50px;
-        position: fixed;
-        top: 70px;
-        right: 0;
-        left: 0;
-/*        display: none;*/
-        background-color: none;
-        
-    }
-    
-    ul.menu2 li{
-        float: none;
-        width: 100%;
-        background-color: white;
-    }
-    
-    #li1{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li2{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li3{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li4{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li1:hover {
-        background-color: rgba(0, 255, 0, 0.3);
-        color: rgba(255, 0, 0, 20) ;
-        width: 80.5%;
-    }
-    #li2:hover {
-        background-color: rgba(255, 0, 0, 0.3);
-        color: rgba(200, 255, 50, 10);
-        width: 80.5%;
-    }
-    #li3:hover {
-        background-color: rgba(0, 0, 255, 0.3);
-        color: rgba(255, 255, 0, 20);
-        width: 80.5%;
-    }
-    #li4:hover {
-        background-color: rgba(255, 255, 0, 0.3);
-        color: rgba(0, 0, 255, 20);
-        width: 80.5%;
-    }
-
-    button {
-        visibility: visible;
-        display: block;
-        width: 44px;
-        height: 44px;
-        margin: 5px;
-        text-align: center;
-        background-repeat: repeat-x;
-        color: white;
-        padding-top: 10px;
-        top: 2px; 
-        cursor: pointer;
-        border: 1px solid black;
-        background-color: black;
-        line-height: 50px;
-        text-align: center;
-        position: fixed;
-        right: 24px;
-    }
-
-    span {
-        background-color: white;
-        border-radius: 1px 1px 1px 1px;
-        display: block;
-        height: 2px;
-        width: 18px;
-        margin: 4px auto;
-    }
-
-    #paski{
-        margin-bottom: 10px;
-        cursor: pointer;
-    }
-
-
-}
-
-@media screen and (max-width: 700px){
-
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
-        display: inline-block;
-        float: left;
-        position: absolute;
-        top: 5px;
-        left: 15%;
-    }
-
-    #menu {
-        width: 100%;
-/*        height: 50px;*/
-        line-height: 50px;
-        position: fixed;
-        top: 70px;
-        right: 0;
-        left: 0;
-/*        display: none;*/
-        background-color: none;
-        
-    }
-    
-    ul.menu2 li{
-        float: none;
-        width: 100%;
-        background-color: white;
-    }
-    
-    #li1{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li2{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li3{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li4{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li1:hover {
-        background-color: rgba(0, 255, 0, 0.3);
-        color: rgba(255, 0, 0, 20) ;
-        width: 88.5%;
-    }
-    #li2:hover {
-        background-color: rgba(255, 0, 0, 0.3);
-        color: rgba(200, 255, 50, 10);
-        width: 88.5%;
-    }
-    #li3:hover {
-        background-color: rgba(0, 0, 255, 0.3);
-        color: rgba(255, 255, 0, 20);
-        width: 88.5%;
-    }
-    #li4:hover {
-        background-color: rgba(255, 255, 0, 0.3);
-        color: rgba(0, 0, 255, 20);
-        width: 88.5%;
-    }
-
-    button {
-        visibility: visible;
-        display: block;
-        width: 44px;
-        height: 44px;
-        margin: 5px;
-        text-align: center;
-        background-repeat: repeat-x;
-        color: white;
-        padding-top: 10px;
-        top: 2px; 
-        cursor: pointer;
-        border: 1px solid black;
-        background-color: black;
-        line-height: 50px;
-        text-align: center;
-        position: fixed;
-        right: 24px;
-    }
-
-    span {
-        background-color: white;
-        border-radius: 1px 1px 1px 1px;
-        display: block;
-        height: 2px;
-        width: 18px;
-        margin: 4px auto;
-    }
-
-    #paski{
-        margin-bottom: 10px;
-        cursor: pointer;
-    }
-
-
-}
-
-@media screen and (max-width: 600px){
-
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
-        display: inline-block;
-        float: left;
-        position: absolute;
-        top: 5px;
-        left: 15%;
-    }
-
-    #menu {
-        width: 100%;
-/*        height: 50px;*/
-        line-height: 50px;
-        position: fixed;
-        top: 70px;
-        right: 0;
-        left: 0;
-/*        display: none;*/
-        background-color: none;
-        
-    }
-    
-    ul.menu2 li{
-        float: none;
-        width: 100%;
-        background-color: white;
-    }
-    
-    #li1{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li2{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li3{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li4{
-        width: 70%;
-        float: none;
-        background-color: white;
-        margin: auto;
-    }
-    
-    #li1:hover {
-        background-color: rgba(0, 255, 0, 0.3);
-        color: rgba(255, 0, 0, 20) ;
-        width: 98%;
-    }
-    #li2:hover {
-        background-color: rgba(255, 0, 0, 0.3);
-        color: rgba(200, 255, 50, 10);
-        width: 98%;
-    }
-    #li3:hover {
-        background-color: rgba(0, 0, 255, 0.3);
-        color: rgba(255, 255, 0, 20);
-        width: 98%;
-    }
-    #li4:hover {
-        background-color: rgba(255, 255, 0, 0.3);
-        color: rgba(0, 0, 255, 20);
-        width: 98%;
     }
 
     button {
@@ -764,7 +411,119 @@ body {
         top: 70px;
         right: 0;
         left: 0;
-/*        display: none;*/
+        background-color: none;
+
+    }
+
+    ul.menu2 li{
+        float: none;
+        width: 100%;
+        background-color: white;
+    }
+
+    #li1{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li2{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li3{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li4{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li1:hover {
+        background-color: rgba(0, 255, 0, 0.3);
+        color: rgba(255, 0, 0, 20) ;
+        width: 100%;
+    }
+    #li2:hover {
+        background-color: rgba(255, 0, 0, 0.3);
+        color: rgba(200, 255, 50, 10);
+        width: 100%;
+    }
+    #li3:hover {
+        background-color: rgba(0, 0, 255, 0.3);
+        color: rgba(255, 255, 0, 20);
+        width: 100%;
+    }
+    #li4:hover {
+        background-color: rgba(255, 255, 0, 0.3);
+        color: rgba(0, 0, 255, 20);
+        width: 100%;
+    }
+
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 2px; 
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 24px;
+    }
+
+    span {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+    }
+
+    #paski{
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    #logo2 {
+        visibility: hidden;
+        width: 190px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 15%;
+    }
+
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        left: 0;
         background-color: none;
         
     }
@@ -776,28 +535,28 @@ body {
     }
     
     #li1{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
     
     #li2{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
     
     #li3{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
     
     #li4{
-        width: 70%;
+        min-width: 100%;
         float: none;
         background-color: white;
         margin: auto;
@@ -806,22 +565,22 @@ body {
     #li1:hover {
         background-color: rgba(0, 255, 0, 0.3);
         color: rgba(255, 0, 0, 20) ;
-        width: 74%;
+        width: 100%;
     }
     #li2:hover {
         background-color: rgba(255, 0, 0, 0.3);
         color: rgba(200, 255, 50, 10);
-        width: 74%;
+        width: 100%;
     }
     #li3:hover {
         background-color: rgba(0, 0, 255, 0.3);
         color: rgba(255, 255, 0, 20);
-        width: 74%;
+        width: 100%;
     }
     #li4:hover {
         background-color: rgba(255, 255, 0, 0.3);
         color: rgba(0, 0, 255, 20);
-        width: 74%;
+        width: 100%;
     }
 
     button {
@@ -860,3 +619,236 @@ body {
 
 
 }
+
+@media screen and (max-width: 600px){
+
+    #logo2 {
+        visibility: hidden;
+        width: 190px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 15%;
+    }
+
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        left: 0;
+        background-color: none;
+        
+    }
+    
+    ul.menu2 li{
+        float: none;
+        width: 100%;
+        background-color: white;
+    }
+    
+    #li1{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+    
+    #li2{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+    
+    #li3{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+    
+    #li4{
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+    
+    #li1:hover {
+        background-color: rgba(0, 255, 0, 0.3);
+        color: rgba(255, 0, 0, 20) ;
+        width: 98%;
+    }
+    #li2:hover {
+        background-color: rgba(255, 0, 0, 0.3);
+        color: rgba(200, 255, 50, 10);
+        width: 98%;
+    }
+    #li3:hover {
+        background-color: rgba(0, 0, 255, 0.3);
+        color: rgba(255, 255, 0, 20);
+        width: 98%;
+    }
+    #li4:hover {
+        background-color: rgba(255, 255, 0, 0.3);
+        color: rgba(0, 0, 255, 20);
+        width: 98%;
+    }
+
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 2px; 
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 24px;
+    }
+
+    span {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+    }
+
+    #paski{
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 400px){
+
+    #logo2 {
+        visibility: hidden;
+        width: 190px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 15%;
+    }
+
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        left: 0;
+        background-color: none;
+
+    }
+
+    ul.menu2 li{
+        float: none;
+        width: 100%;
+        background-color: white;
+    }
+
+    #li1{
+        width: 70%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li2{
+        width: 70%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li3{
+        width: 70%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li4{
+        width: 70%;
+        float: none;
+        background-color: white;
+        margin: auto;
+    }
+
+    #li1:hover {
+        background-color: rgba(0, 255, 0, 0.3);
+        color: rgba(255, 0, 0, 20) ;
+        width: 98.5%;
+    }
+    #li2:hover {
+        background-color: rgba(255, 0, 0, 0.3);
+        color: rgba(200, 255, 50, 10);
+        width: 98.5%;
+    }
+    #li3:hover {
+        background-color: rgba(0, 0, 255, 0.3);
+        color: rgba(255, 255, 0, 20);
+        width: 98.5%;
+    }
+    #li4:hover {
+        background-color: rgba(255, 255, 0, 0.3);
+        color: rgba(0, 0, 255, 20);
+        width: 98.5%;
+    }
+
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 2px; 
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 24px;
+    }
+
+    span {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+    }
+
+    #paski{
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+
+}
+*/
+
+
