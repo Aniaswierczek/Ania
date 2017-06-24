@@ -1,4 +1,4 @@
-#menu {
+nav {
     min-height: 70px;
     line-height: 70px;
     background-color: white;
@@ -9,7 +9,7 @@
     left: 0px;
 }
 
-#menu img {
+nav img {
     width: 200px;
     display: inline-block;
     float: left;
@@ -18,28 +18,116 @@
     left: 15%;
 }
 
-#menu>ul>li {
+nav>ul>li {
     display: inline-block;
 }
 
-#menu>ul {
+nav>ul {
     margin: 0px;
 }
 
-#menu>ul>li>a {
+nav>ul>li>a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     padding-left: 20px;
     padding-right: 20px;
     display: block;
-    transition: 1.5s;
+    transition: 0.8s;
+    letter-spacing: 1px;
 }
 
-#menu>ul>li>a:hover {
-    background-color: white;
-    color: black;
+#li1:hover {
+    background-color: rgba(0, 255, 0, 0.3);
+    color: rgba(255, 0, 0, 20) ;
 }
+#li2:hover {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: rgba(200, 255, 50, 10);
+}
+#li3:hover {
+    background-color: rgba(0, 0, 255, 0.3);
+    color: rgba(255, 255, 0, 20);
+}
+#li4:hover {
+    background-color: rgba(255, 255, 0, 0.3);
+    color: rgba(0, 0, 255, 20);
+}
+
+/*
+#input-toggle {
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+@media screen and (max-width:300px){
+*/
+nav #input-toggle:checked ~ ul{
+    max-height: 500px;
+}
+
+nav ul li {
+    padding-top: 10px;
+    width:72.2%;
+    max-width: 75%;
+    min-width: 0;
+    margin-left: -40px;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+}
+
+#input-toggle {
+	opacity: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+label {
+    display: block;
+    width: 44px;
+    height: 33px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #404040;
+    background-image: linear-gradient(to bottom, #000, #111);
+    background-repeat: repeat-x;
+    color: white;
+    padding-top: 10px;
+    position: absolute;
+    top: 2px; 
+    right: 15%;
+    cursor: pointer;
+}
+
+span {
+    background-color: white;
+    border-radius: 1px 1px 1px 1px;
+    display: block;
+    height: 2px;
+    width: 18px;
+    margin: 4px auto;
+}
+
+nav ul {
+    margin-top: 55px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-heigt 0.35s ease 0s;
+    -webkit-transition: max-height 0.35s ease 0s;
+    -moz-transition: max-height 0.35s ease 0s;
+}
+
+nav #input-toggle:checked + ul{
+    max-height: 500px;
+}
+/*}*/
 
 #onas div {
     background-color: rgba(0, 255, 0, 0.3);
@@ -57,8 +145,6 @@
     background-color: rgba(255, 255, 0, 0.3);
 }
 
-
-}
 .kolor {
     height: 450px;
 }
@@ -106,9 +192,9 @@ body {
     width: 70%;
     margin: auto;
 }
+
 #zdjecie1 {
     background-image: url("img/1.jpg");
-    
 }
 #zdjecie2 {
     background-image: url("img/2.jpg");
@@ -118,4 +204,15 @@ body {
 }
 #zdjecie4 {
     background-image: url("img/4.jpg");
+}
+
+#stopka {
+    background-color: red;
+	height:  50px;
+    min-width: 600px;
+    width: 70%;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: black;
 }
