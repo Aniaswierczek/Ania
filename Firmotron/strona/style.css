@@ -1,4 +1,4 @@
-    #menu {
+#menu {
     height: 70px;
     line-height: 70px;
     background-color: white;
@@ -79,19 +79,19 @@
     color: rgba(0, 0, 255, 20);
 }
 
-#onas div {
+#onas>div {
     background-color: rgba(0, 255, 0, 0.3);
 }
 
-#oferta div {
+#oferta>div {
     background-color: rgba(255, 0, 0, 0.3);
 }
 
-#portfolio div {
+#portfolio>div {
     background-color: rgba(0, 0, 255, 0.3);
 }
 
-#kontakt div {
+#kontakt>div {
     background-color: rgba(255, 255, 0, 0.3);
 }
 
@@ -115,7 +115,7 @@ button {
     right: 10%;
 }
 
-span {
+.pasy {
     background-color: white;
     border-radius: 1px 1px 1px 1px;
     display: block;
@@ -139,6 +139,21 @@ span {
     width: 70%;
     margin: auto;
 }
+
+h3{
+    margin-top: 0px;
+    padding-top: 5%;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    max-width: 80%;
+    word-wrap: break-word;
+    margin: 5% auto;
+    letter-spacing: 0.5px;
+}
+
 #strzalka a:visited {
     text-decoration: none;
     color: white;
@@ -179,16 +194,16 @@ body {
 }
 
 #zdjecie1 {
-    background-image: url("img/1.jpg");
+    background-image: url("img/11.jpg");
 }
 #zdjecie2 {
-    background-image: url("img/2.jpg");
+    background-image: url("img/12.jpg");
 }
 #zdjecie3 {
-    background-image: url("img/3.jpg");
+    background-image: url("img/13.jpg");
 }
 #zdjecie4 {
-    background-image: url("img/4.jpg");
+    background-image: url("img/14.jpg");
 }
 
 #stopka {
@@ -311,7 +326,7 @@ body {
         right: 24px;
     }
 
-    span {
+    .pasy {
         background-color: white;
         border-radius: 1px 1px 1px 1px;
         display: block;
@@ -391,16 +406,16 @@ body {
     }
 
     #zdjecie1 {
-        background-image: url("img/1.jpg");
+        background-image: url("img/11.jpg");
     }
     #zdjecie2 {
-        background-image: url("img/2.jpg");
+        background-image: url("img/12.jpg");
     }
     #zdjecie3 {
-        background-image: url("img/3.jpg");
+        background-image: url("img/13.jpg");
     }
     #zdjecie4 {
-        background-image: url("img/4.jpg");
+        background-image: url("img/14.jpg");
     }
 
     #stopka {
@@ -525,7 +540,7 @@ body {
         right: 3%;
     }
 
-    span {
+    .pasy {
         background-color: white;
         border-radius: 1px 1px 1px 1px;
         display: block;
@@ -605,16 +620,16 @@ body {
     }
 
     #zdjecie1 {
-        background-image: url("img/1.jpg");
+        background-image: url("img/11.jpg");
     }
     #zdjecie2 {
-        background-image: url("img/2.jpg");
+        background-image: url("img/12.jpg");
     }
     #zdjecie3 {
-        background-image: url("img/3.jpg");
+        background-image: url("img/13.jpg");
     }
     #zdjecie4 {
-        background-image: url("img/4.jpg");
+        background-image: url("img/14.jpg");
     }
 
     #stopka {
@@ -739,7 +754,7 @@ body {
         right: 24px;
     }
 
-    span {
+    .pasy {
         background-color: white;
         border-radius: 1px 1px 1px 1px;
         display: block;
@@ -819,16 +834,16 @@ body {
     }
 
     #zdjecie1 {
-        background-image: url("img/1.jpg");
+        background-image: url("img/11.jpg");
     }
     #zdjecie2 {
-        background-image: url("img/2.jpg");
+        background-image: url("img/12.jpg");
     }
     #zdjecie3 {
-        background-image: url("img/3.jpg");
+        background-image: url("img/13.jpg");
     }
     #zdjecie4 {
-        background-image: url("img/4.jpg");
+        background-image: url("img/14.jpg");
     }
 
     #stopka {
@@ -953,7 +968,7 @@ body {
         right: 24px;
     }
 
-    span {
+    .pasy {
         background-color: white;
         border-radius: 1px 1px 1px 1px;
         display: block;
@@ -1033,16 +1048,16 @@ body {
     }
 
     #zdjecie1 {
-        background-image: url("img/1.jpg");
+        background-image: url("img/11.jpg");
     }
     #zdjecie2 {
-        background-image: url("img/2.jpg");
+        background-image: url("img/12.jpg");
     }
     #zdjecie3 {
-        background-image: url("img/3.jpg");
+        background-image: url("img/13.jpg");
     }
     #zdjecie4 {
-        background-image: url("img/4.jpg");
+        background-image: url("img/14.jpg");
     }
 
     #stopka {
@@ -1167,7 +1182,7 @@ body {
         right: 24px;
     }
 
-    span {
+    .pasy {
         background-color: white;
         border-radius: 1px 1px 1px 1px;
         display: block;
@@ -1247,16 +1262,16 @@ body {
     }
 
     #zdjecie1 {
-        background-image: url("img/1.jpg");
+        background-image: url("img/11.jpg");
     }
     #zdjecie2 {
-        background-image: url("img/2.jpg");
+        background-image: url("img/12.jpg");
     }
     #zdjecie3 {
-        background-image: url("img/3.jpg");
+        background-image: url("img/13.jpg");
     }
     #zdjecie4 {
-        background-image: url("img/4.jpg");
+        background-image: url("img/14.jpg");
     }
 
     #stopka {
@@ -1383,7 +1398,7 @@ body {
         right: 24px;
     }
 
-    span {
+    .pasy {
         background-color: white;
         border-radius: 1px 1px 1px 1px;
         display: block;
@@ -1463,16 +1478,16 @@ body {
     }
 
     #zdjecie1 {
-        background-image: url("img/1.jpg");
+        background-image: url("img/11.jpg");
     }
     #zdjecie2 {
-        background-image: url("img/2.jpg");
+        background-image: url("img/12.jpg");
     }
     #zdjecie3 {
-        background-image: url("img/3.jpg");
+        background-image: url("img/13.jpg");
     }
     #zdjecie4 {
-        background-image: url("img/4.jpg");
+        background-image: url("img/14.jpg");
     }
 
     #stopka {
@@ -1484,6 +1499,4 @@ body {
         text-align: center;
         color: black;
     }
-
-
 }
