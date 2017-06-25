@@ -1,4 +1,4 @@
-#menu {
+    #menu {
     height: 70px;
     line-height: 70px;
     background-color: white;
@@ -7,7 +7,6 @@
     top: 0px;
     right: 0px;
     left: 0px;
-    visibility: visible;
 }
 
 #logo1 {
@@ -16,7 +15,7 @@
     float: left;
     position: absolute;
     top: 5px;
-    left: 15%;
+    left: 16%;
 }
 
 #logo2 {
@@ -25,14 +24,13 @@
     float: left;
     position: absolute;
     top: 5px;
-    left: 15%;
+    left: 16%;
 }
 
 #menu>ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-/*    margin-left: 5%;*/
 }
 
 #menu>ul>li {
@@ -49,8 +47,19 @@
     display: block;
     transition: 0.8s;
     letter-spacing: 1px;
-/*    float:left;*/
-/*    background-color: green;*/
+}
+
+#li1{
+    margin-left: 20%;
+}
+#li2{
+    margin-left: 20%;
+}
+#li3{
+    margin-left: 20%;
+}
+#li4{
+    margin-left: 20%;
 }
 
 #li1:hover {
@@ -86,6 +95,40 @@
     background-color: rgba(255, 255, 0, 0.3);
 }
 
+button {
+    visibility: visible;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: 5px;
+    text-align: center;
+    background-repeat: repeat-x;
+    color: white;
+    padding-top: 10px;
+    top: 1%; 
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: black;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    right: 10%;
+}
+
+span {
+    background-color: white;
+    border-radius: 1px 1px 1px 1px;
+    display: block;
+    height: 2px;
+    width: 18px;
+    margin: 4px auto;
+}
+
+#paski{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
 .kolor {
     height: 450px;
 }
@@ -116,7 +159,7 @@
     text-align: center;
     position: fixed;
     bottom: 24px;
-    right: 24px;
+    right: 10%;
     width: 44px;
     height: 44px;
 }
@@ -149,7 +192,7 @@ body {
 }
 
 #stopka {
-    background-color: red;
+    background-color: white;
     height:  50px;
     min-width: 70%;
     width: 70%;
@@ -161,26 +204,36 @@ body {
 
 @media screen and (max-width: 1200px){
 
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
+    #logo1 {
+        visibility: visible;
+        width: 150px;
         display: inline-block;
         float: left;
         position: absolute;
-        top: 5px;
-        left: 15%;
+        top: 3%;
+        left: 10%;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
     }
 
     #menu {
         width: 100%;
+        line-height: 50px;
         height: 200px;
-        line-height: 100%;
         position: fixed;
-        top: 70px;
+        top: 0;
         right: 0;
         left: 0;
+        padding-top: 70px;
         background-color: none;
-        
     }
     
     ul.menu2 li{
@@ -248,7 +301,7 @@ body {
         background-repeat: repeat-x;
         color: white;
         padding-top: 10px;
-        top: 2px; 
+        top: 1%; 
         cursor: pointer;
         border: 1px solid black;
         background-color: black;
@@ -272,31 +325,129 @@ body {
         cursor: pointer;
     }
 
+    #onas div {
+        background-color: rgba(0, 255, 0, 0.3);
+    }
 
+    #oferta div {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #portfolio div {
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+
+    #kontakt div {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    .kolor {
+        height: 450px;
+    }
+
+    .kolor>div {
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    #strzalka a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    #strzalka a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #strzalka {
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        width: 44px;
+        height: 44px;
+    }
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/1.jpg");
+    }
+    #zdjecie2 {
+        background-image: url("img/2.jpg");
+    }
+    #zdjecie3 {
+        background-image: url("img/3.jpg");
+    }
+    #zdjecie4 {
+        background-image: url("img/4.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height:  50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
+    
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1080px){
 
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
+    #logo1 {
+        visibility: visible;
+        width: 150px;
         display: inline-block;
         float: left;
         position: absolute;
-        top: 5px;
-        left: 15%;
+        top: 1.5%;
+        left: 10%;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
     }
 
     #menu {
         width: 100%;
+        line-height: 50px;
         height: 200px;
-        line-height: 300%;
         position: fixed;
-        top: 70px;
+        top: 0;
         right: 0;
         left: 0;
+        padding-top: 70px;
         background-color: none;
-
     }
 
     ul.menu2 li{
@@ -364,14 +515,14 @@ body {
         background-repeat: repeat-x;
         color: white;
         padding-top: 10px;
-        top: 2px; 
+        top: 1%; 
         cursor: pointer;
         border: 1px solid black;
         background-color: black;
         line-height: 50px;
         text-align: center;
         position: fixed;
-        right: 24px;
+        right: 3%;
     }
 
     span {
@@ -386,6 +537,95 @@ body {
     #paski{
         margin-bottom: 10px;
         cursor: pointer;
+    }
+    
+    #onas div {
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+
+    #oferta div {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #portfolio div {
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+
+    #kontakt div {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    .kolor {
+        height: 450px;
+    }
+
+    .kolor>div {
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    #strzalka a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    #strzalka a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #strzalka {
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        bottom: 24px;
+        right: 3%;
+        width: 44px;
+        height: 44px;
+    }
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/1.jpg");
+    }
+    #zdjecie2 {
+        background-image: url("img/2.jpg");
+    }
+    #zdjecie3 {
+        background-image: url("img/3.jpg");
+    }
+    #zdjecie4 {
+        background-image: url("img/4.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height:  50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
     }
 
 
@@ -393,26 +633,35 @@ body {
 
 @media screen and (max-width: 800px){
 
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
+    #logo1 {
+        visibility: visible;
+        width: 150px;
         display: inline-block;
         float: left;
         position: absolute;
-        top: 5px;
-        left: 15%;
+        top: 3%;
+        left: 10%;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
     }
 
     #menu {
         width: 100%;
-        height: 200px;
         line-height: 50px;
         position: fixed;
-        top: 70px;
+        top: 0;
         right: 0;
         left: 0;
+        padding-top: 70px;
         background-color: none;
-
     }
 
     ul.menu2 li{
@@ -480,7 +729,7 @@ body {
         background-repeat: repeat-x;
         color: white;
         padding-top: 10px;
-        top: 2px; 
+        top: 1%; 
         cursor: pointer;
         border: 1px solid black;
         background-color: black;
@@ -503,29 +752,130 @@ body {
         margin-bottom: 10px;
         cursor: pointer;
     }
+    
+    #onas div {
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+
+    #oferta div {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #portfolio div {
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+
+    #kontakt div {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    .kolor {
+        height: 450px;
+    }
+
+    .kolor>div {
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    #strzalka a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    #strzalka a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #strzalka {
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        width: 44px;
+        height: 44px;
+    }
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/1.jpg");
+    }
+    #zdjecie2 {
+        background-image: url("img/2.jpg");
+    }
+    #zdjecie3 {
+        background-image: url("img/3.jpg");
+    }
+    #zdjecie4 {
+        background-image: url("img/4.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height:  50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
+
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
 
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
+    #logo1 {
+        visibility: visible;
+        width: 150px;
         display: inline-block;
         float: left;
         position: absolute;
-        top: 5px;
-        left: 15%;
+        top: 3%;
+        left: 10%;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
     }
 
     #menu {
         width: 100%;
         line-height: 50px;
+        height: 200px;
         position: fixed;
-        top: 70px;
+        top: 0;
         right: 0;
         left: 0;
+        padding-top: 70px;
         background-color: none;
-        
     }
     
     ul.menu2 li{
@@ -593,7 +943,7 @@ body {
         background-repeat: repeat-x;
         color: white;
         padding-top: 10px;
-        top: 2px; 
+        top: 2%; 
         cursor: pointer;
         border: 1px solid black;
         background-color: black;
@@ -616,31 +966,130 @@ body {
         margin-bottom: 10px;
         cursor: pointer;
     }
+    
+    #onas div {
+        background-color: rgba(0, 255, 0, 0.3);
+    }
 
+    #oferta div {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #portfolio div {
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+
+    #kontakt div {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    .kolor {
+        height: 450px;
+    }
+
+    .kolor>div {
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    #strzalka a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    #strzalka a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #strzalka {
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        width: 44px;
+        height: 44px;
+    }
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/1.jpg");
+    }
+    #zdjecie2 {
+        background-image: url("img/2.jpg");
+    }
+    #zdjecie3 {
+        background-image: url("img/3.jpg");
+    }
+    #zdjecie4 {
+        background-image: url("img/4.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height:  50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
 
 }
 
 @media screen and (max-width: 600px){
 
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
+    #logo1 {
+        visibility: visible;
+        width: 150px;
         display: inline-block;
         float: left;
         position: absolute;
-        top: 5px;
-        left: 15%;
+        top: 3%;
+        left: 10%;
     }
 
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
+    }
+    
     #menu {
         width: 100%;
         line-height: 50px;
+        height: 200px;
         position: fixed;
-        top: 70px;
+        top: 0;
         right: 0;
         left: 0;
+        padding-top: 70px;
         background-color: none;
-        
     }
     
     ul.menu2 li{
@@ -708,7 +1157,7 @@ body {
         background-repeat: repeat-x;
         color: white;
         padding-top: 10px;
-        top: 2px; 
+        top: 2%; 
         cursor: pointer;
         border: 1px solid black;
         background-color: black;
@@ -730,6 +1179,95 @@ body {
     #paski{
         margin-bottom: 10px;
         cursor: pointer;
+    }
+    
+    #onas div {
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+
+    #oferta div {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #portfolio div {
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+
+    #kontakt div {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    .kolor {
+        height: 450px;
+    }
+
+    .kolor>div {
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    #strzalka a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    #strzalka a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #strzalka {
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        width: 44px;
+        height: 44px;
+    }
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/1.jpg");
+    }
+    #zdjecie2 {
+        background-image: url("img/2.jpg");
+    }
+    #zdjecie3 {
+        background-image: url("img/3.jpg");
+    }
+    #zdjecie4 {
+        background-image: url("img/4.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height:  50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
     }
 
 
@@ -737,25 +1275,37 @@ body {
 
 @media screen and (max-width: 400px){
 
-    #logo2 {
-        visibility: hidden;
-        width: 190px;
+    
+    #logo1 {
+        visibility: visible;
+        width: 150px;
         display: inline-block;
         float: left;
         position: absolute;
-        top: 5px;
-        left: 15%;
+        top: 2%;
+        left: 10%;
+    }
+    
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 5%;
+        left: 10%;
     }
 
     #menu {
         width: 100%;
         line-height: 50px;
+        height: 200px;
         position: fixed;
-        top: 70px;
+        top: 0;
         right: 0;
         left: 0;
+        padding-top: 70px;
         background-color: none;
-
     }
 
     ul.menu2 li{
@@ -765,28 +1315,28 @@ body {
     }
 
     #li1{
-        width: 70%;
+        width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
 
     #li2{
-        width: 70%;
+        width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
 
     #li3{
-        width: 70%;
+        width: 100%;
         float: none;
         background-color: white;
         margin: auto;
     }
 
     #li4{
-        width: 70%;
+        width: 100%;
         float: none;
         background-color: white;
         margin: auto;
@@ -823,7 +1373,7 @@ body {
         background-repeat: repeat-x;
         color: white;
         padding-top: 10px;
-        top: 2px; 
+        top: 1%; 
         cursor: pointer;
         border: 1px solid black;
         background-color: black;
@@ -846,9 +1396,94 @@ body {
         margin-bottom: 10px;
         cursor: pointer;
     }
+    
+    #onas div {
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+
+    #oferta div {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #portfolio div {
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+
+    #kontakt div {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    .kolor {
+        height: 450px;
+    }
+
+    .kolor>div {
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    #strzalka a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    #strzalka a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #strzalka {
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        width: 44px;
+        height: 44px;
+    }
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/1.jpg");
+    }
+    #zdjecie2 {
+        background-image: url("img/2.jpg");
+    }
+    #zdjecie3 {
+        background-image: url("img/3.jpg");
+    }
+    #zdjecie4 {
+        background-image: url("img/4.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height:  50px;
+        min-width: 100%;
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
 
 
 }
-*/
-
-

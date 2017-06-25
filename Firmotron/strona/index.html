@@ -16,9 +16,9 @@
 <body>
    
     <div>
-        <img id="logo1"src=../logo.png alt="logo" /> <!--mała strona-->
+        <img id="logo1" src=../logo.png alt="logo" /> <!--mała strona-->
     <div id="menu">
-        <img id="logo2"src=../logo.png alt="logo" /> <!--duża strona-->
+        <img id="logo2" src=../logo.png alt="logo" /> <!--duża strona-->
         <ul class="menu2">
             <li><a id = "li1" href="#onas">O nas</a></li>
             <li><a id = "li2" href="#oferta">Oferta</a></li>
@@ -61,8 +61,7 @@
         <div></div>
     </div>
     
-    <div id="stopka"><span>SensuGroup&copy;2017</span></div>
-
+    <div id="stopka"><p>SensuGroup &copy; 2017</p></div>
 
     <div id="strzalka">
         <a href="#onas"> &#94;</a>
@@ -89,12 +88,16 @@
             }, offset);
             return false;
         });
-
+        
+        $("#logo2").hide();
+        $("#menu").hide();
         $(document).ready(function(){
             $("#btn").click(function(){
-                $("#menu").slideToggle("slow");
-            })
-        })
+                $("#menu").stop().slideToggle("normal");
+                $("#logo2").stop().fadeToggle(1500);
+                $("#logo1").stop().fadeToggle(1500);
+            });
+        });
         
         console.log(innerWidth);
 
