@@ -16,13 +16,13 @@
 
 </head>
 
-<body>
+<body onselectstart="return false;">
 	<script>
 		new WOW().init();
 
 	</script>
 	<div>
-
+<!--            <img id="logo1" src=../logo.png alt="logo" />-->
 		<!--mała strona-->
 		<div id="menu">
 			<img id="logo2" src=../logo.png alt="logo" />
@@ -48,8 +48,8 @@
             </div>
         </label>
 		</div>
-		<div id="baner"><img src="img/baner.jpg" alt="baner" /></div>
-
+		
+		<div id="baner"></div>
 
 		<div id="zdjecie1" class="parallax">
 
@@ -59,7 +59,7 @@
 		<div class="kolor" id="onas">
 			<div class="tekst">
 				<p>
-					Sensu Group to prężnie rozwijająca się agencja kreatywna. W&nbsp;skład naszego zespołu wchodzą cztery osoby o&nbsp;nieprzeciętnych umiejętnościach w&nbsp;dziedzinie designu i&nbsp;programowania. Głęboka analiza wymagań oraz dialog z&nbsp;klientem pozwalają nam tworzyć efektywne rozwiązania, spójne z&nbsp;profilem jego działalności.
+                    Sensu Group to kreatywna i prężnie rozwijająca się agencja. W&nbsp;skład naszego zespołu wchodzą cztery osoby o&nbsp;nieprzeciętnych umiejętnościach w&nbsp;dziedzinie designu i&nbsp;programowania. Głęboka analiza wymagań oraz dialog z&nbsp;klientem pozwalają nam tworzyć efektywne rozwiązania, spójne z&nbsp;profilem jego działalności.
 				</p>
 			</div>
 		</div>
@@ -75,13 +75,13 @@
 				<p>
 					<ul class="oferta">
 						<li class="www">
-							<span>Strony www:</span><br/>Tworzymy nowoczesne strony www od wypracowanej z&nbsp;klientem koncepcji, poprzez design aż do wdrożenia.
+                            <span>Strony www:<br/></span><br/>Tworzymy nowoczesne strony www od wypracowanej z&nbsp;klientem koncepcji, poprzez design aż do wdrożenia.
 						</li>
 						<li class="www">
-							<span>Identyfikacje wizualne:</span><br/>Profesjonalne propozycje logotypu, dopasowane, nowoczesne wizytówki, projekt papieru firmowego, księgi znaku oraz wiele innych.
+							<span>Identyfikacje wizualne:<br/></span><br/>Profesjonalne propozycje logotypu, dopasowane, nowoczesne wizytówki, projekt papieru firmowego, księgi znaku oraz wiele innych.
 						</li>
 						<li class="www">
-							<span>Reklama zewnętrzna:</span><br/>billboardy, plakaty, ulotki, reklama na samochody oraz wiele więcej...
+                            <span>Reklama zewnętrzna:<br/></span><br/>billboardy, plakaty, ulotki, reklama na samochody oraz wiele więcej...
 						</li>
 					</ul>
 				</p>
@@ -118,8 +118,6 @@
 
 		<div id="stopka"><span>SensuGroup &copy; 2017</span></div>
 
-
-	</div>
 
 	<script>
 		$.each($("h1 > span"), function(i) {
@@ -162,8 +160,8 @@
 		$(document).ready(function() {
 			$("#btn").click(function() {
 				$("#menu").stop().slideToggle("normal");
-				$("#logo2").stop().fadeToggle(1300);
-				$("#logo1").stop().fadeToggle(1300);
+				$("#logo2").stop().fadeToggle(800);
+				$("#logo1").stop().fadeToggle(800);
 			});
 		});
 
