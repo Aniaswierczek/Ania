@@ -71,23 +71,23 @@
 }
 
 #li1:hover {
-	background-color: rgb(123,190,152);
-	color: rgb(209,97,90);
+	background-color: rgb(123, 190, 152);
+	color: rgb(209, 97, 90);
 }
 
 #li2:hover {
-    background-color: rgb(209,97,90);
-    color: rgb(123,190,152);
+	background-color: rgb(209, 97, 90);
+	color: rgb(123, 190, 152);
 }
 
 #li3:hover {
-	background-color: rgb(108,183,213);
-	color: rgb(245,239,121);
+	background-color: rgb(108, 183, 213);
+	color: rgb(245, 239, 121);
 }
 
 #li4:hover {
-    background-color: rgb(245,239,121);
-    color: rgb(108,183,213);
+	background-color: rgb(245, 239, 121);
+	color: rgb(108, 183, 213);
 }
 
 #onas>div {
@@ -207,7 +207,7 @@ body {
 
 .parallax h1 {
 	text-align: center;
-    margin: 0;
+	margin: 0;
 	display: block;
 	width: 100%;
 	line-height: 250px;
@@ -221,7 +221,7 @@ body {
 
 #zdjecie1 {
 	background-image: url("img/11.jpg");
-    overflow: hidden;
+	overflow: hidden;
 }
 
 #zdjecie2 {
@@ -277,34 +277,34 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
-        z-index: 10;
+		z-index: 10;
 	}
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
-        z-index: 10;
+		z-index: 10;
 	}
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
 	#li4 {
 		min-width: 100%;
@@ -312,36 +312,32 @@ body {
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
-    #li1:hover {
-        background-color: rgb(123,190,152);
-        color: rgb(209,97,90);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li2:hover {
-        background-color: rgb(209,97,90);
-        color: rgb(123,190,152);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li3:hover {
-        background-color: rgb(108,183,213);
-        color: rgb(245,239,121);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li4:hover {
-        background-color: rgb(245,239,121);
-        color: rgb(108,183,213);
-        width: 100%;
-        z-index: 10;
-    }
-    
+	#li1:hover {
+		background-color: rgb(123, 190, 152);
+		color: rgb(209, 97, 90);
+		width: 100%;
+		z-index: 10;
+	}
+	#li2:hover {
+		background-color: rgb(209, 97, 90);
+		color: rgb(123, 190, 152);
+		width: 100%;
+		z-index: 10;
+	}
+	#li3:hover {
+		background-color: rgb(108, 183, 213);
+		color: rgb(245, 239, 121);
+		width: 100%;
+		z-index: 10;
+	}
+	#li4:hover {
+		background-color: rgb(245, 239, 121);
+		color: rgb(108, 183, 213);
+		width: 100%;
+		z-index: 10;
+	}
 	button {
 		visibility: visible;
 		display: block;
@@ -360,7 +356,7 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 24px;
-        z-index: 10;
+		z-index: 10;
 	}
 	.pasy {
 		background-color: white;
@@ -369,91 +365,92 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
-        z-index: 10;
+		z-index: 10;
 	}
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
-        z-index: 10;
-	}
-	#onas div {
-		background-color: rgba(123, 190, 152, 0.3);
-	}
-	#oferta div {
-		background-color: rgba(209, 97, 90, 0.3);
-	}
-	#portfolio div {
-		background-color: rgba(108, 183, 213, 0.3);
-	}
-	#kontakt div {
-		background-color: rgba(245, 239, 121, 0.3);
-	}
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	#strzalka a:visited {
-		text-decoration: none;
-		color: white;
-	}
-	#strzalka a {
-		display: block;
-		height: 100%;
-		width: 100%;
-		text-decoration: none;
-		font-weight: bold;
-	}
-	#strzalka {
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		color: white;
-		font-size: 30px;
-		text-align: center;
-		position: fixed;
-		bottom: 24px;
-		right: 24px;
-		width: 44px;
-		height: 44px;
-	}
-	body {
-		margin: 0;
-	}
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-		line-height: 50px;
-		text-align: center;
-		color: black;
+		z-index: 10;
 	}
 }
 
+.kolor>div {
+	min-width: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+#strzalka a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#strzalka a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#strzalka {
+	border: 1px solid black;
+	background-color: black;
+	line-height: 50px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	position: fixed;
+	bottom: 24px;
+	right: 24px;
+	width: 44px;
+	height: 44px;
+}
+
+body {
+	margin: 0;
+}
+
+.parallax {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	min-width: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+#zdjecie1 {
+	background-image: url("img/11.jpg");
+}
+
+#zdjecie2 {
+	background-image: url("img/12.jpg");
+}
+
+#zdjecie3 {
+	background-image: url("img/13.jpg");
+}
+
+#zdjecie4 {
+	background-image: url("img/14.jpg");
+}
+
+#stopka {
+	background-color: white;
+	height: 50px;
+	min-width: 100%;
+	width: 100%;
+	margin: auto;
+	line-height: 50px;
+	text-align: center;
+	color: black;
+}
+
+
+}
 @media screen and (max-width: 1080px) {
 	#logo1 {
 		visibility: visible;
@@ -463,8 +460,9 @@ body {
 		position: absolute;
 		top: 1.5%;
 		left: 10%;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#logo2 {
 		visibility: visible;
 		width: 150px;
@@ -473,8 +471,9 @@ body {
 		position: absolute;
 		top: 8%;
 		left: 10%;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#menu {
 		width: 100%;
 		line-height: 50px;
@@ -485,70 +484,77 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li4 {
 		min-width: 100%;
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
-    #li1:hover {
-        background-color: rgb(123,190,152);
-        color: rgb(209,97,90);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li2:hover {
-        background-color: rgb(209,97,90);
-        color: rgb(123,190,152);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li3:hover {
-        background-color: rgb(108,183,213);
-        color: rgb(245,239,121);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li4:hover {
-        background-color: rgb(245,239,121);
-        color: rgb(108,183,213);
-        width: 100%;
-        z-index: 10;
-    }
+	
+	#li1:hover {
+		background-color: rgb(123, 190, 152);
+		color: rgb(209, 97, 90);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li2:hover {
+		background-color: rgb(209, 97, 90);
+		color: rgb(123, 190, 152);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li3:hover {
+		background-color: rgb(108, 183, 213);
+		color: rgb(245, 239, 121);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li4:hover {
+		background-color: rgb(245, 239, 121);
+		color: rgb(108, 183, 213);
+		width: 100%;
+		z-index: 10;
+	}
+	
 	button {
 		visibility: visible;
 		display: block;
@@ -567,8 +573,9 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 3%;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	.pasy {
 		background-color: white;
 		border-radius: 1px 1px 1px 1px;
@@ -576,38 +583,46 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#onas div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#oferta div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#portfolio div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#kontakt div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	.kolor>div {
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
 	}
+	
 	#strzalka a:visited {
 		text-decoration: none;
 		color: white;
 	}
+	
 	#strzalka a {
 		display: block;
 		height: 100%;
@@ -615,6 +630,7 @@ body {
 		text-decoration: none;
 		font-weight: bold;
 	}
+	
 	#strzalka {
 		border: 1px solid black;
 		background-color: black;
@@ -628,9 +644,11 @@ body {
 		width: 44px;
 		height: 44px;
 	}
+	
 	body {
 		margin: 0;
 	}
+	
 	.parallax {
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -641,18 +659,23 @@ body {
 		width: 100%;
 		margin: auto;
 	}
+	
 	#zdjecie1 {
 		background-image: url("img/11.jpg");
 	}
+	
 	#zdjecie2 {
 		background-image: url("img/12.jpg");
 	}
+	
 	#zdjecie3 {
 		background-image: url("img/13.jpg");
 	}
+	
 	#zdjecie4 {
 		background-image: url("img/14.jpg");
 	}
+	
 	#stopka {
 		background-color: white;
 		height: 50px;
@@ -664,7 +687,6 @@ body {
 		color: black;
 	}
 }
-
 @media screen and (max-width: 800px) {
 	#logo1 {
 		visibility: visible;
@@ -674,8 +696,9 @@ body {
 		position: absolute;
 		top: 3%;
 		left: 10%;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#logo2 {
 		visibility: visible;
 		width: 150px;
@@ -684,8 +707,9 @@ body {
 		position: absolute;
 		top: 8%;
 		left: 10%;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#menu {
 		width: 100%;
 		line-height: 50px;
@@ -695,69 +719,76 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li4 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
-    #li1:hover {
-        background-color: rgb(123,190,152);
-        color: rgb(209,97,90);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li2:hover {
-        background-color: rgb(209,97,90);
-        color: rgb(123,190,152);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li3:hover {
-        background-color: rgb(108,183,213);
-        color: rgb(245,239,121);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li4:hover {
-        background-color: rgb(245,239,121);
-        color: rgb(108,183,213);
-        width: 100%;
-        z-index: 10;
-    }
+	
+	#li1:hover {
+		background-color: rgb(123, 190, 152);
+		color: rgb(209, 97, 90);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li2:hover {
+		background-color: rgb(209, 97, 90);
+		color: rgb(123, 190, 152);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li3:hover {
+		background-color: rgb(108, 183, 213);
+		color: rgb(245, 239, 121);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li4:hover {
+		background-color: rgb(245, 239, 121);
+		color: rgb(108, 183, 213);
+		width: 100%;
+		z-index: 10;
+	}
+	
 	button {
 		visibility: visible;
 		display: block;
@@ -776,8 +807,9 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 24px;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	.pasy {
 		background-color: white;
 		border-radius: 1px 1px 1px 1px;
@@ -785,38 +817,46 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#onas div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#oferta div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#portfolio div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#kontakt div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	.kolor>div {
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
 	}
+	
 	#strzalka a:visited {
 		text-decoration: none;
 		color: white;
 	}
+	
 	#strzalka a {
 		display: block;
 		height: 100%;
@@ -824,6 +864,7 @@ body {
 		text-decoration: none;
 		font-weight: bold;
 	}
+	
 	#strzalka {
 		border: 1px solid black;
 		background-color: black;
@@ -837,9 +878,11 @@ body {
 		width: 44px;
 		height: 44px;
 	}
+	
 	body {
 		margin: 0;
 	}
+	
 	.parallax {
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -850,18 +893,23 @@ body {
 		width: 100%;
 		margin: auto;
 	}
+	
 	#zdjecie1 {
 		background-image: url("img/11.jpg");
 	}
+	
 	#zdjecie2 {
 		background-image: url("img/12.jpg");
 	}
+	
 	#zdjecie3 {
 		background-image: url("img/13.jpg");
 	}
+	
 	#zdjecie4 {
 		background-image: url("img/14.jpg");
 	}
+	
 	#stopka {
 		background-color: white;
 		height: 50px;
@@ -873,7 +921,6 @@ body {
 		color: black;
 	}
 }
-
 @media screen and (max-width: 768px) {
 	#logo1 {
 		visibility: visible;
@@ -883,8 +930,9 @@ body {
 		position: absolute;
 		top: 3%;
 		left: 10%;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#logo2 {
 		visibility: visible;
 		width: 150px;
@@ -893,428 +941,9 @@ body {
 		position: absolute;
 		top: 8%;
 		left: 10%;
-        z-index: 10;
+		z-index: 10;
 	}
-	#menu {
-		width: 100%;
-		line-height: 50px;
-		height: 200px;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		padding-top: 70px;
-		background-color: none;
-        z-index: 10;
-	}
-	ul.menu2 li {
-		float: none;
-		width: 100%;
-		background-color: white;
-        z-index: 10;
-	}
-	#li1 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-	#li2 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-	#li3 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-	#li4 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-    #li1:hover {
-        background-color: rgb(123,190,152);
-        color: rgb(209,97,90);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li2:hover {
-        background-color: rgb(209,97,90);
-        color: rgb(123,190,152);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li3:hover {
-        background-color: rgb(108,183,213);
-        color: rgb(245,239,121);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li4:hover {
-        background-color: rgb(245,239,121);
-        color: rgb(108,183,213);
-        width: 100%;
-        z-index: 10;
-    }
-	button {
-		visibility: visible;
-		display: block;
-		width: 44px;
-		height: 44px;
-		margin: 5px;
-		text-align: center;
-		background-repeat: repeat-x;
-		color: white;
-		padding-top: 10px;
-		top: 2%;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		text-align: center;
-		position: fixed;
-		right: 24px;
-        z-index: 10;
-	}
-	.pasy {
-		background-color: white;
-		border-radius: 1px 1px 1px 1px;
-		display: block;
-		height: 2px;
-		width: 18px;
-		margin: 4px auto;
-        z-index: 10;
-	}
-	#paski {
-		margin-bottom: 10px;
-		cursor: pointer;
-        z-index: 10;
-	}
-	#onas div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	#oferta div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	#portfolio div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	#kontakt div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	#strzalka a:visited {
-		text-decoration: none;
-		color: white;
-	}
-	#strzalka a {
-		display: block;
-		height: 100%;
-		width: 100%;
-		text-decoration: none;
-		font-weight: bold;
-	}
-	#strzalka {
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		color: white;
-		font-size: 30px;
-		text-align: center;
-		position: fixed;
-		bottom: 24px;
-		right: 24px;
-		width: 44px;
-		height: 44px;
-	}
-	body {
-		margin: 0;
-	}
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-		line-height: 50px;
-		text-align: center;
-		color: black;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	#logo1 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 3%;
-		left: 10%;
-        z-index: 10;
-	}
-	#logo2 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 8%;
-		left: 10%;
-        z-index: 10;
-	}
-	#menu {
-		width: 100%;
-		line-height: 50px;
-		height: 200px;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		padding-top: 70px;
-		background-color: none;
-        z-index: 10;
-	}
-	ul.menu2 li {
-		float: none;
-		width: 100%;
-		background-color: white;
-        z-index: 10;
-	}
-	#li1 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-	#li2 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-	#li3 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-	#li4 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-        z-index: 10;
-	}
-    #li1:hover {
-        background-color: rgb(123,190,152);
-        color: rgb(209,97,90);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li2:hover {
-        background-color: rgb(209,97,90);
-        color: rgb(123,190,152);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li3:hover {
-        background-color: rgb(108,183,213);
-        color: rgb(245,239,121);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li4:hover {
-        background-color: rgb(245,239,121);
-        color: rgb(108,183,213);
-        width: 100%;
-        z-index: 10;
-    }
-	button {
-		visibility: visible;
-		display: block;
-		width: 44px;
-		height: 44px;
-		margin: 5px;
-		text-align: center;
-		background-repeat: repeat-x;
-		color: white;
-		padding-top: 10px;
-		top: 2%;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		text-align: center;
-		position: fixed;
-		right: 24px;
-        z-index: 10;
-	}
-	.pasy {
-		background-color: white;
-		border-radius: 1px 1px 1px 1px;
-		display: block;
-		height: 2px;
-		width: 18px;
-		margin: 4px auto;
-        z-index: 10;
-	}
-	#paski {
-		margin-bottom: 10px;
-		cursor: pointer;
-        z-index: 10;
-	}
-	#onas div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	#oferta div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	#portfolio div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	#kontakt div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
-	}
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	#strzalka a:visited {
-		text-decoration: none;
-		color: white;
-	}
-	#strzalka a {
-		display: block;
-		height: 100%;
-		width: 100%;
-		text-decoration: none;
-		font-weight: bold;
-	}
-	#strzalka {
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		color: white;
-		font-size: 30px;
-		text-align: center;
-		position: fixed;
-		bottom: 24px;
-		right: 24px;
-		width: 44px;
-		height: 44px;
-	}
-	body {
-		margin: 0;
-	}
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-		line-height: 50px;
-		text-align: center;
-		color: black;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	#logo1 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 2%;
-		left: 10%;
-        z-index: 10;
-	}
-	#logo2 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 5%;
-		left: 10%;
-        z-index: 10;
-	}
+	
 	#menu {
 		width: 100%;
 		line-height: 50px;
@@ -1327,67 +956,544 @@ body {
 		background-color: none;
 		z-index: 10;
 	}
+	
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
-        z-index: 10;
+		z-index: 10;
 	}
+	
+	#li1 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li2 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li3 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li4 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li1:hover {
+		background-color: rgb(123, 190, 152);
+		color: rgb(209, 97, 90);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li2:hover {
+		background-color: rgb(209, 97, 90);
+		color: rgb(123, 190, 152);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li3:hover {
+		background-color: rgb(108, 183, 213);
+		color: rgb(245, 239, 121);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li4:hover {
+		background-color: rgb(245, 239, 121);
+		color: rgb(108, 183, 213);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	button {
+		visibility: visible;
+		display: block;
+		width: 44px;
+		height: 44px;
+		margin: 5px;
+		text-align: center;
+		background-repeat: repeat-x;
+		color: white;
+		padding-top: 10px;
+		top: 2%;
+		cursor: pointer;
+		border: 1px solid black;
+		background-color: black;
+		line-height: 50px;
+		text-align: center;
+		position: fixed;
+		right: 24px;
+		z-index: 10;
+	}
+	
+	.pasy {
+		background-color: white;
+		border-radius: 1px 1px 1px 1px;
+		display: block;
+		height: 2px;
+		width: 18px;
+		margin: 4px auto;
+		z-index: 10;
+	}
+	
+	#paski {
+		margin-bottom: 10px;
+		cursor: pointer;
+		z-index: 10;
+	}
+	
+	#onas div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	#oferta div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	#portfolio div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	#kontakt div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	.kolor>div {
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+	}
+	
+	#strzalka a:visited {
+		text-decoration: none;
+		color: white;
+	}
+	
+	#strzalka a {
+		display: block;
+		height: 100%;
+		width: 100%;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	#strzalka {
+		border: 1px solid black;
+		background-color: black;
+		line-height: 50px;
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		position: fixed;
+		bottom: 24px;
+		right: 24px;
+		width: 44px;
+		height: 44px;
+	}
+	
+	body {
+		margin: 0;
+	}
+	
+	.parallax {
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 250px;
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+	}
+	
+	#zdjecie1 {
+		background-image: url("img/11.jpg");
+	}
+	
+	#zdjecie2 {
+		background-image: url("img/12.jpg");
+	}
+	
+	#zdjecie3 {
+		background-image: url("img/13.jpg");
+	}
+	
+	#zdjecie4 {
+		background-image: url("img/14.jpg");
+	}
+	
+	#stopka {
+		background-color: white;
+		height: 50px;
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+		line-height: 50px;
+		text-align: center;
+		color: black;
+	}
+}
+@media screen and (max-width: 600px) {
+	#logo1 {
+		visibility: visible;
+		width: 150px;
+		display: inline-block;
+		float: left;
+		position: absolute;
+		top: 3%;
+		left: 10%;
+		z-index: 10;
+	}
+	
+	#logo2 {
+		visibility: visible;
+		width: 150px;
+		display: inline-block;
+		float: left;
+		position: absolute;
+		top: 8%;
+		left: 10%;
+		z-index: 10;
+	}
+	
+	#menu {
+		width: 100%;
+		line-height: 50px;
+		height: 200px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		padding-top: 70px;
+		background-color: none;
+		z-index: 10;
+	}
+	
+	ul.menu2 li {
+		float: none;
+		width: 100%;
+		background-color: white;
+		z-index: 10;
+	}
+	
+	#li1 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li2 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li3 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li4 {
+		min-width: 100%;
+		float: none;
+		background-color: white;
+		margin: auto;
+		z-index: 10;
+	}
+	
+	#li1:hover {
+		background-color: rgb(123, 190, 152);
+		color: rgb(209, 97, 90);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li2:hover {
+		background-color: rgb(209, 97, 90);
+		color: rgb(123, 190, 152);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li3:hover {
+		background-color: rgb(108, 183, 213);
+		color: rgb(245, 239, 121);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li4:hover {
+		background-color: rgb(245, 239, 121);
+		color: rgb(108, 183, 213);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	button {
+		visibility: visible;
+		display: block;
+		width: 44px;
+		height: 44px;
+		margin: 5px;
+		text-align: center;
+		background-repeat: repeat-x;
+		color: white;
+		padding-top: 10px;
+		top: 2%;
+		cursor: pointer;
+		border: 1px solid black;
+		background-color: black;
+		line-height: 50px;
+		text-align: center;
+		position: fixed;
+		right: 24px;
+		z-index: 10;
+	}
+	
+	.pasy {
+		background-color: white;
+		border-radius: 1px 1px 1px 1px;
+		display: block;
+		height: 2px;
+		width: 18px;
+		margin: 4px auto;
+		z-index: 10;
+	}
+	
+	#paski {
+		margin-bottom: 10px;
+		cursor: pointer;
+		z-index: 10;
+	}
+	
+	#onas div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	#oferta div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	#portfolio div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	#kontakt div {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
+	}
+	
+	.kolor>div {
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+	}
+	
+	#strzalka a:visited {
+		text-decoration: none;
+		color: white;
+	}
+	
+	#strzalka a {
+		display: block;
+		height: 100%;
+		width: 100%;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	#strzalka {
+		border: 1px solid black;
+		background-color: black;
+		line-height: 50px;
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		position: fixed;
+		bottom: 24px;
+		right: 24px;
+		width: 44px;
+		height: 44px;
+	}
+	
+	body {
+		margin: 0;
+	}
+	
+	.parallax {
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 250px;
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+	}
+	
+	#zdjecie1 {
+		background-image: url("img/11.jpg");
+	}
+	
+	#zdjecie2 {
+		background-image: url("img/12.jpg");
+	}
+	
+	#zdjecie3 {
+		background-image: url("img/13.jpg");
+	}
+	
+	#zdjecie4 {
+		background-image: url("img/14.jpg");
+	}
+	
+	#stopka {
+		background-color: white;
+		height: 50px;
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+		line-height: 50px;
+		text-align: center;
+		color: black;
+	}
+}
+@media screen and (max-width: 400px) {
+	#logo1 {
+		visibility: visible;
+		width: 150px;
+		display: inline-block;
+		float: left;
+		position: absolute;
+		top: 2%;
+		left: 10%;
+		z-index: 10;
+	}
+	
+	#logo2 {
+		visibility: visible;
+		width: 150px;
+		display: inline-block;
+		float: left;
+		position: absolute;
+		top: 5%;
+		left: 10%;
+		z-index: 10;
+	}
+	
+	#menu {
+		width: 100%;
+		line-height: 50px;
+		height: 200px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		padding-top: 70px;
+		background-color: none;
+		z-index: 10;
+	}
+	
+	ul.menu2 li {
+		float: none;
+		width: 100%;
+		background-color: white;
+		z-index: 10;
+	}
+	
 	#li1 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li2 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li3 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
+	
 	#li4 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
-        z-index: 10;
+		z-index: 10;
 	}
-    #li1:hover {
-        background-color: rgb(123,190,152);
-        color: rgb(209,97,90);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li2:hover {
-        background-color: rgb(209,97,90);
-        color: rgb(123,190,152);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li3:hover {
-        background-color: rgb(108,183,213);
-        color: rgb(245,239,121);
-        width: 100%;
-        z-index: 10;
-    }
-
-    #li4:hover {
-        background-color: rgb(245,239,121);
-        color: rgb(108,183,213);
-        width: 100%;
-        z-index: 10;
-    }
+	
+	#li1:hover {
+		background-color: rgb(123, 190, 152);
+		color: rgb(209, 97, 90);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li2:hover {
+		background-color: rgb(209, 97, 90);
+		color: rgb(123, 190, 152);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li3:hover {
+		background-color: rgb(108, 183, 213);
+		color: rgb(245, 239, 121);
+		width: 100%;
+		z-index: 10;
+	}
+	
+	#li4:hover {
+		background-color: rgb(245, 239, 121);
+		color: rgb(108, 183, 213);
+		width: 100%;
+		z-index: 10;
+	}
+	
 	button {
 		visibility: visible;
 		display: block;
@@ -1408,6 +1514,7 @@ body {
 		right: 24px;
 		z-index: 10;
 	}
+	
 	.pasy {
 		background-color: white;
 		border-radius: 1px 1px 1px 1px;
@@ -1417,32 +1524,39 @@ body {
 		margin: 4px auto;
 		z-index: 10;
 	}
+	
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
 		z-index: 10;
 	}
+	
 	#onas div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#oferta div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#portfolio div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	#kontakt div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
+	
 	.kolor>div {
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
 	}
+	
 	.tekst p {
 		text-align: justify;
 		max-width: 80%;
@@ -1452,10 +1566,12 @@ body {
 		padding: 5%;
 		line-height: 100%;
 	}
+	
 	#strzalka a:visited {
 		text-decoration: none;
 		color: white;
 	}
+	
 	#strzalka a {
 		display: block;
 		height: 100%;
@@ -1463,6 +1579,7 @@ body {
 		text-decoration: none;
 		font-weight: bold;
 	}
+	
 	#strzalka {
 		border: 1px solid black;
 		background-color: black;
@@ -1476,9 +1593,11 @@ body {
 		width: 44px;
 		height: 44px;
 	}
+	
 	body {
 		margin: 0;
 	}
+	
 	.parallax {
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1489,18 +1608,23 @@ body {
 		width: 100%;
 		margin: auto;
 	}
+	
 	#zdjecie1 {
 		background-image: url("img/11.jpg");
 	}
+	
 	#zdjecie2 {
 		background-image: url("img/12.jpg");
 	}
+	
 	#zdjecie3 {
 		background-image: url("img/13.jpg");
 	}
+	
 	#zdjecie4 {
 		background-image: url("img/14.jpg");
 	}
+	
 	#stopka {
 		background-color: white;
 		height: 50px;
