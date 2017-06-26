@@ -14,13 +14,13 @@
 	z-index: 10;
 }
 
-#logo1 {
-	width: 190px;
-	display: inline-block;
-	float: left;
-	position: absolute;
-	top: 5px;
-	left: 16%;
+#baner {
+	margin: auto;
+	width: 70%;
+}
+
+#baner img {
+	width: 100%;
 }
 
 #logo2 {
@@ -160,13 +160,10 @@ button {
 	margin: 0 auto;
 	letter-spacing: 0.5px;
 	padding: 5% 15%;
-    line-height: 1.5;
-    
+	line-height: 1.5;
 }
 
-.oferta{
-    
-}
+.oferta {}
 
 body {
 	margin: 0;
@@ -347,30 +344,29 @@ body {
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
-        z-index: 10;
+		z-index: 10;
 	}
 	#onas div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
 	#oferta div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
 	#portfolio div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
 	#kontakt div {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px -10px 10px -10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px -10px 10px -10px;
 	}
 	.kolor>div {
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
 	}
-	
 	body {
 		margin: 0;
 	}
@@ -407,55 +403,48 @@ body {
 		color: black;
 		z-index: 10;
 	}
-
-    .kolor>div {
-        min-width: 100%;
-        width: 100%;
-        margin: auto;
-    }
-
-    body {
-        margin: 0;
-    }
-
-    .parallax {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 250px;
-        min-width: 100%;
-        width: 100%;
-        margin: auto;
-    }
-
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
-
-    #stopka {
-        background-color: white;
-        height: 50px;
-        min-width: 100%;
-        width: 100%;
-        margin: auto;
-        line-height: 50px;
-        text-align: center;
-        color: black;
-    }
+	.kolor>div {
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+	}
+	body {
+		margin: 0;
+	}
+	.parallax {
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 250px;
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+	}
+	#zdjecie1 {
+		background-image: url("img/11.jpg");
+	}
+	#zdjecie2 {
+		background-image: url("img/12.jpg");
+	}
+	#zdjecie3 {
+		background-image: url("img/13.jpg");
+	}
+	#zdjecie4 {
+		background-image: url("img/14.jpg");
+	}
+	#stopka {
+		background-color: white;
+		height: 50px;
+		min-width: 100%;
+		width: 100%;
+		margin: auto;
+		line-height: 50px;
+		text-align: center;
+		color: black;
+	}
 }
+
 
 }
 @media screen and (max-width: 1080px) {
@@ -667,7 +656,6 @@ body {
 		color: black;
 	}
 }
-
 @media screen and (max-width: 800px) {
 	#logo1 {
 		visibility: visible;
@@ -875,7 +863,6 @@ body {
 		color: black;
 	}
 }
-
 @media screen and (max-width: 768px) {
 	#logo1 {
 		visibility: visible;
@@ -1084,7 +1071,6 @@ body {
 		color: black;
 	}
 }
-
 @media screen and (max-width: 600px) {
 	#logo1 {
 		visibility: visible;
@@ -1293,7 +1279,6 @@ body {
 		color: black;
 	}
 }
-
 @media screen and (max-width: 400px) {
 	#logo1 {
 		visibility: visible;
