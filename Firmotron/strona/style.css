@@ -205,8 +205,9 @@ body {
 	margin: auto;
 }
 
-.parallax span {
+.parallax h1 {
 	text-align: center;
+    margin: 0;
 	display: block;
 	width: 100%;
 	line-height: 250px;
