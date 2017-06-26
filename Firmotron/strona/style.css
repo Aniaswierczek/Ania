@@ -71,45 +71,43 @@
 }
 
 #li1:hover {
-	background-color: rgba(0, 255, 0, 0.3);
-	color: rgba(255, 0, 0, 20);
+	background-color: rgb(123,190,152);
+	color: rgb(209,97,90);
 }
 
 #li2:hover {
-	background-color: rgba(255, 0, 0, 0.3);
-	color: rgba(200, 255, 50, 10);
+    background-color: rgb(209,97,90);
+    color: rgb(123,190,152);
 }
 
 #li3:hover {
-	background-color: rgba(0, 0, 255, 0.3);
-	color: rgba(255, 255, 0, 20);
+	background-color: rgb(108,183,213);
+	color: rgb(245,239,121);
 }
 
 #li4:hover {
-	background-color: rgba(255, 255, 0, 0.3);
-	color: rgba(0, 0, 255, 20);
+    background-color: rgb(245,239,121);
+    color: rgb(108,183,213);
 }
 
 #onas>div {
 	background-color: rgb(255, 255, 255);
-	/*    border: 0px solid rgb(0, 255, 0);*/
-	box-shadow: 0px -10px 10px -10px
-	/*    opacity: 0.3;*/
+	box-shadow: 0px -10px 10px -10px;
 }
 
 #oferta>div {
 	background-color: rgb(255, 255, 255);
-	box-shadow: 0px -10px 10px -10px
+	box-shadow: 0px -10px 10px -10px;
 }
 
 #portfolio>div {
 	background-color: rgb(255, 255, 255);
-	box-shadow: 0px -10px 10px -10px
+	box-shadow: 0px -10px 10px -10px;
 }
 
 #kontakt>div {
 	background-color: rgb(255, 255, 255);
-	box-shadow: 0px -10px 10px -10px
+	box-shadow: 0px -10px 10px -10px;
 }
 
 button {
@@ -277,29 +275,34 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
+        z-index: 10;
 	}
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
+        z-index: 10;
 	}
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li4 {
 		min-width: 100%;
@@ -307,27 +310,36 @@ body {
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
-	#li1:hover {
-		background-color: rgba(0, 255, 0, 0.3);
-		color: rgba(255, 0, 0, 20);
-		width: 100%;
-	}
-	#li2:hover {
-		background-color: rgba(255, 0, 0, 0.3);
-		color: rgba(200, 255, 50, 10);
-		width: 100%;
-	}
-	#li3:hover {
-		background-color: rgba(0, 0, 255, 0.3);
-		color: rgba(255, 255, 0, 20);
-		width: 100%;
-	}
-	#li4:hover {
-		background-color: rgba(255, 255, 0, 0.3);
-		color: rgba(0, 0, 255, 20);
-		width: 100%;
-	}
+    #li1:hover {
+        background-color: rgb(123,190,152);
+        color: rgb(209,97,90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209,97,90);
+        color: rgb(123,190,152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108,183,213);
+        color: rgb(245,239,121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245,239,121);
+        color: rgb(108,183,213);
+        width: 100%;
+        z-index: 10;
+    }
+    
 	button {
 		visibility: visible;
 		display: block;
@@ -346,6 +358,7 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 24px;
+        z-index: 10;
 	}
 	.pasy {
 		background-color: white;
@@ -354,10 +367,12 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
+        z-index: 10;
 	}
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
+        z-index: 10;
 	}
 	#onas div {
 		background-color: rgba(123, 190, 152, 0.3);
@@ -408,7 +423,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 450px;
+		height: 250px;
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
@@ -446,6 +461,7 @@ body {
 		position: absolute;
 		top: 1.5%;
 		left: 10%;
+        z-index: 10;
 	}
 	#logo2 {
 		visibility: visible;
@@ -455,6 +471,7 @@ body {
 		position: absolute;
 		top: 8%;
 		left: 10%;
+        z-index: 10;
 	}
 	#menu {
 		width: 100%;
@@ -466,29 +483,34 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
+        z-index: 10;
 	}
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
+        z-index: 10;
 	}
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li4 {
 		min-width: 100%;
@@ -496,27 +518,35 @@ body {
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
-	#li1:hover {
-		background-color: rgba(0, 255, 0, 0.3);
-		color: rgba(255, 0, 0, 20);
-		width: 100%;
-	}
-	#li2:hover {
-		background-color: rgba(255, 0, 0, 0.3);
-		color: rgba(200, 255, 50, 10);
-		width: 100%;
-	}
-	#li3:hover {
-		background-color: rgba(0, 0, 255, 0.3);
-		color: rgba(255, 255, 0, 20);
-		width: 100%;
-	}
-	#li4:hover {
-		background-color: rgba(255, 255, 0, 0.3);
-		color: rgba(0, 0, 255, 20);
-		width: 100%;
-	}
+    #li1:hover {
+        background-color: rgb(123,190,152);
+        color: rgb(209,97,90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209,97,90);
+        color: rgb(123,190,152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108,183,213);
+        color: rgb(245,239,121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245,239,121);
+        color: rgb(108,183,213);
+        width: 100%;
+        z-index: 10;
+    }
 	button {
 		visibility: visible;
 		display: block;
@@ -535,6 +565,7 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 3%;
+        z-index: 10;
 	}
 	.pasy {
 		background-color: white;
@@ -543,22 +574,28 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
+        z-index: 10;
 	}
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
+        z-index: 10;
 	}
 	#onas div {
-		background-color: rgba(0, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#oferta div {
-		background-color: rgba(255, 0, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#portfolio div {
-		background-color: rgba(0, 0, 255, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#kontakt div {
-		background-color: rgba(255, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	.kolor>div {
 		min-width: 100%;
@@ -597,7 +634,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 450px;
+		height: 250px;
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
@@ -635,6 +672,7 @@ body {
 		position: absolute;
 		top: 3%;
 		left: 10%;
+        z-index: 10;
 	}
 	#logo2 {
 		visibility: visible;
@@ -644,6 +682,7 @@ body {
 		position: absolute;
 		top: 8%;
 		left: 10%;
+        z-index: 10;
 	}
 	#menu {
 		width: 100%;
@@ -654,56 +693,69 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
+        z-index: 10;
 	}
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
+        z-index: 10;
 	}
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li4 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
-	#li1:hover {
-		background-color: rgba(0, 255, 0, 0.3);
-		color: rgba(255, 0, 0, 20);
-		width: 100%;
-	}
-	#li2:hover {
-		background-color: rgba(255, 0, 0, 0.3);
-		color: rgba(200, 255, 50, 10);
-		width: 100%;
-	}
-	#li3:hover {
-		background-color: rgba(0, 0, 255, 0.3);
-		color: rgba(255, 255, 0, 20);
-		width: 100%;
-	}
-	#li4:hover {
-		background-color: rgba(255, 255, 0, 0.3);
-		color: rgba(0, 0, 255, 20);
-		width: 100%;
-	}
+    #li1:hover {
+        background-color: rgb(123,190,152);
+        color: rgb(209,97,90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209,97,90);
+        color: rgb(123,190,152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108,183,213);
+        color: rgb(245,239,121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245,239,121);
+        color: rgb(108,183,213);
+        width: 100%;
+        z-index: 10;
+    }
 	button {
 		visibility: visible;
 		display: block;
@@ -722,6 +774,7 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 24px;
+        z-index: 10;
 	}
 	.pasy {
 		background-color: white;
@@ -730,22 +783,28 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
+        z-index: 10;
 	}
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
+        z-index: 10;
 	}
 	#onas div {
-		background-color: rgba(0, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#oferta div {
-		background-color: rgba(255, 0, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#portfolio div {
-		background-color: rgba(0, 0, 255, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#kontakt div {
-		background-color: rgba(255, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	.kolor>div {
 		min-width: 100%;
@@ -784,7 +843,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 450px;
+		height: 250px;
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
@@ -822,6 +881,7 @@ body {
 		position: absolute;
 		top: 3%;
 		left: 10%;
+        z-index: 10;
 	}
 	#logo2 {
 		visibility: visible;
@@ -831,6 +891,7 @@ body {
 		position: absolute;
 		top: 8%;
 		left: 10%;
+        z-index: 10;
 	}
 	#menu {
 		width: 100%;
@@ -842,56 +903,69 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
+        z-index: 10;
 	}
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
+        z-index: 10;
 	}
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li4 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
-	#li1:hover {
-		background-color: rgba(0, 255, 0, 0.3);
-		color: rgba(255, 0, 0, 20);
-		width: 100%;
-	}
-	#li2:hover {
-		background-color: rgba(255, 0, 0, 0.3);
-		color: rgba(200, 255, 50, 10);
-		width: 100%;
-	}
-	#li3:hover {
-		background-color: rgba(0, 0, 255, 0.3);
-		color: rgba(255, 255, 0, 20);
-		width: 100%;
-	}
-	#li4:hover {
-		background-color: rgba(255, 255, 0, 0.3);
-		color: rgba(0, 0, 255, 20);
-		width: 100%;
-	}
+    #li1:hover {
+        background-color: rgb(123,190,152);
+        color: rgb(209,97,90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209,97,90);
+        color: rgb(123,190,152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108,183,213);
+        color: rgb(245,239,121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245,239,121);
+        color: rgb(108,183,213);
+        width: 100%;
+        z-index: 10;
+    }
 	button {
 		visibility: visible;
 		display: block;
@@ -910,6 +984,7 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 24px;
+        z-index: 10;
 	}
 	.pasy {
 		background-color: white;
@@ -918,22 +993,28 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
+        z-index: 10;
 	}
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
+        z-index: 10;
 	}
 	#onas div {
-		background-color: rgba(0, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#oferta div {
-		background-color: rgba(255, 0, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#portfolio div {
-		background-color: rgba(0, 0, 255, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#kontakt div {
-		background-color: rgba(255, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	.kolor>div {
 		min-width: 100%;
@@ -972,7 +1053,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 450px;
+		height: 250px;
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
@@ -1010,6 +1091,7 @@ body {
 		position: absolute;
 		top: 3%;
 		left: 10%;
+        z-index: 10;
 	}
 	#logo2 {
 		visibility: visible;
@@ -1019,6 +1101,7 @@ body {
 		position: absolute;
 		top: 8%;
 		left: 10%;
+        z-index: 10;
 	}
 	#menu {
 		width: 100%;
@@ -1030,56 +1113,69 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
+        z-index: 10;
 	}
 	ul.menu2 li {
 		float: none;
 		width: 100%;
 		background-color: white;
+        z-index: 10;
 	}
 	#li1 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li2 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li3 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li4 {
 		min-width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
-	#li1:hover {
-		background-color: rgba(0, 255, 0, 0.3);
-		color: rgba(255, 0, 0, 20);
-		width: 98%;
-	}
-	#li2:hover {
-		background-color: rgba(255, 0, 0, 0.3);
-		color: rgba(200, 255, 50, 10);
-		width: 98%;
-	}
-	#li3:hover {
-		background-color: rgba(0, 0, 255, 0.3);
-		color: rgba(255, 255, 0, 20);
-		width: 98%;
-	}
-	#li4:hover {
-		background-color: rgba(255, 255, 0, 0.3);
-		color: rgba(0, 0, 255, 20);
-		width: 98%;
-	}
+    #li1:hover {
+        background-color: rgb(123,190,152);
+        color: rgb(209,97,90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209,97,90);
+        color: rgb(123,190,152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108,183,213);
+        color: rgb(245,239,121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245,239,121);
+        color: rgb(108,183,213);
+        width: 100%;
+        z-index: 10;
+    }
 	button {
 		visibility: visible;
 		display: block;
@@ -1098,6 +1194,7 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 24px;
+        z-index: 10;
 	}
 	.pasy {
 		background-color: white;
@@ -1106,22 +1203,28 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
+        z-index: 10;
 	}
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
+        z-index: 10;
 	}
 	#onas div {
-		background-color: rgba(0, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#oferta div {
-		background-color: rgba(255, 0, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#portfolio div {
-		background-color: rgba(0, 0, 255, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#kontakt div {
-		background-color: rgba(255, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	.kolor>div {
 		min-width: 100%;
@@ -1198,6 +1301,7 @@ body {
 		position: absolute;
 		top: 2%;
 		left: 10%;
+        z-index: 10;
 	}
 	#logo2 {
 		visibility: visible;
@@ -1207,6 +1311,7 @@ body {
 		position: absolute;
 		top: 5%;
 		left: 10%;
+        z-index: 10;
 	}
 	#menu {
 		width: 100%;
@@ -1224,51 +1329,63 @@ body {
 		float: none;
 		width: 100%;
 		background-color: white;
+        z-index: 10;
 	}
 	#li1 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li2 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li3 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
 	#li4 {
 		width: 100%;
 		float: none;
 		background-color: white;
 		margin: auto;
+        z-index: 10;
 	}
-	#li1:hover {
-		background-color: rgba(0, 255, 0, 0.3);
-		color: rgba(255, 0, 0, 20);
-		width: 98.5%;
-	}
-	#li2:hover {
-		background-color: rgba(255, 0, 0, 0.3);
-		color: rgba(200, 255, 50, 10);
-		width: 98.5%;
-	}
-	#li3:hover {
-		background-color: rgba(0, 0, 255, 0.3);
-		color: rgba(255, 255, 0, 20);
-		width: 98.5%;
-	}
-	#li4:hover {
-		background-color: rgba(255, 255, 0, 0.3);
-		color: rgba(0, 0, 255, 20);
-		width: 98.5%;
-	}
+    #li1:hover {
+        background-color: rgb(123,190,152);
+        color: rgb(209,97,90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209,97,90);
+        color: rgb(123,190,152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108,183,213);
+        color: rgb(245,239,121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245,239,121);
+        color: rgb(108,183,213);
+        width: 100%;
+        z-index: 10;
+    }
 	button {
 		visibility: visible;
 		display: block;
@@ -1304,16 +1421,20 @@ body {
 		z-index: 10;
 	}
 	#onas div {
-		background-color: rgba(0, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#oferta div {
-		background-color: rgba(255, 0, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#portfolio div {
-		background-color: rgba(0, 0, 255, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	#kontakt div {
-		background-color: rgba(255, 255, 0, 0.3);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
 	}
 	.kolor>div {
 		min-width: 100%;
