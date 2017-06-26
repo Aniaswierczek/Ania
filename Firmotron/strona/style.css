@@ -220,6 +220,7 @@ body {
 
 #zdjecie1 {
 	background-image: url("img/11.jpg");
+    overflow: hidden;
 }
 
 #zdjecie2 {
