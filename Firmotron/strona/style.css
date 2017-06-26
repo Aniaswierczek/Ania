@@ -197,10 +197,20 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 450px;
+	height: 250px;
 	min-width: 70%;
 	width: 70%;
 	margin: auto;
+}
+
+.parallax p {
+	line-height: 250px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 3px 3px #000;
+	font-family: "Roboto", sans-serif;
 }
 
 #zdjecie1 {
@@ -342,16 +352,16 @@ body {
 		cursor: pointer;
 	}
 	#onas div {
-		background-color: rgba(0, 255, 0, 0.3);
+		background-color: rgba(123, 190, 152, 0.3);
 	}
 	#oferta div {
-		background-color: rgba(255, 0, 0, 0.3);
+		background-color: rgba(209, 97, 90, 0.3);
 	}
 	#portfolio div {
-		background-color: rgba(0, 0, 255, 0.3);
+		background-color: rgba(108, 183, 213, 0.3);
 	}
 	#kontakt div {
-		background-color: rgba(255, 255, 0, 0.3);
+		background-color: rgba(245, 239, 121, 0.3);
 	}
 	.kolor {
 		height: 450px;
@@ -1162,7 +1172,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 450px;
+		height: 250px;
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
