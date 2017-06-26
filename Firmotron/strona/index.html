@@ -8,15 +8,20 @@
 	<meta name="description" content="tekst" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="animate.css" />
 	<script src="jquery-3.2.1.min.js"></script>
+	<script src="wow.min.js"></script>
 	<script src="smoothScroll.js"></script>
 
 </head>
 
 <body>
+	<script>
+		new WOW().init();
 
+	</script>
 	<div>
-		<img id="logo1" src=../logo.png alt="logo" />
+
 		<!--mała strona-->
 		<div id="menu">
 			<img id="logo2" src=../logo.png alt="logo" />
@@ -45,7 +50,7 @@
 
 		<div id="zdjecie1" class="parallax">
 
-			<span>O nas</span>
+			<span class="wow slideInLeft" data-wow-duration="2s">O nas</span>
 
 		</div>
 		<div class="kolor" id="onas">
@@ -58,7 +63,7 @@
 
 		<div id="zdjecie2" class="parallax">
 
-			<span>Oferta</span>
+			<span class="wow slideInLeft" data-wow-duration="2s">Oferta</span>
 
 		</div>
 		<div class="kolor" id="oferta">
@@ -72,7 +77,7 @@
 
 		<div id="zdjecie3" class="parallax">
 
-			<span>Portfolio</span>
+			<span class="wow slideInLeft" data-wow-duration="2s">Portfolio</span>
 
 		</div>
 		<div class="kolor" id="portfolio">
@@ -86,7 +91,7 @@
 
 		<div id="zdjecie4" class="parallax">
 
-			<span>Kontakt</span>
+			<span class="wow slideInLeft" data-wow-duration="2s">Kontakt</span>
 
 		</div>
 		<div class="kolor" id="kontakt">
@@ -100,9 +105,7 @@
 
 		<div id="stopka"><span>SensuGroup &copy; 2017</span></div>
 
-		<div id="strzalka">
-			<a href="#zdjecie1">&#94;</a>
-		</div>
+
 	</div>
 
 	<script>
