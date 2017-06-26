@@ -50,7 +50,7 @@
 
 		<div id="zdjecie1" class="parallax">
 
-			<span class="wow slideInLeft" data-wow-duration="2s">O nas</span>
+			<h1><span>O</span><span> </span><span>n</span><span>a</span><span>s</span></h1>
 
 		</div>
 		<div class="kolor" id="onas">
@@ -63,7 +63,7 @@
 
 		<div id="zdjecie2" class="parallax">
 
-			<span class="wow slideInLeft" data-wow-duration="2s">Oferta</span>
+			<h1><span>O</span><span>f</span><span>e</span><span>r</span><span>t</span><span>a</span></h1>
 
 		</div>
 		<div class="kolor" id="oferta">
@@ -77,7 +77,7 @@
 
 		<div id="zdjecie3" class="parallax">
 
-			<span class="wow slideInLeft" data-wow-duration="2s">Portfolio</span>
+			<h1><span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span></h1>
 
 		</div>
 		<div class="kolor" id="portfolio">
@@ -91,7 +91,7 @@
 
 		<div id="zdjecie4" class="parallax">
 
-			<span class="wow slideInLeft" data-wow-duration="2s">Kontakt</span>
+			<h1><span>K</span><span>o</span><span>n</span><span>t</span><span>a</span><span>k</span><span>t</span></h1>
 
 		</div>
 		<div class="kolor" id="kontakt">
@@ -109,6 +109,16 @@
 	</div>
 
 	<script>
+		$.each($("h1 > span"), function(i) {
+			i = Math.floor(Math.random() * 2);
+
+			$(this).addClass("wow fadeIn");
+			$(this).attr("data-wow-duration", "0.8s");
+			$(this).attr("data-wow-delay", i + "s");
+		});
+
+
+
 		$('a[href^="#"]').on('click', function(e) {
 			if (this.innerText !== "^") {
 				$("#menu").stop().slideToggle("normal");
@@ -143,8 +153,6 @@
 				$("#logo1").stop().fadeToggle(1300);
 			});
 		});
-
-		console.log(innerWidth);
 
 	</script>
 </body>
