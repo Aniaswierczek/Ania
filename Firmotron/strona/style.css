@@ -86,19 +86,26 @@
 }
 
 #onas>div {
-	background-color: rgba(0, 255, 0, 0.3);
+	background-color: rgb(255,255,255);
+/*    border: 0px solid rgb(0, 255, 0);*/
+    box-shadow: 0px -10px 10px -10px 
+    
+/*    opacity: 0.3;*/
 }
 
 #oferta>div {
-	background-color: rgba(255, 0, 0, 0.3);
+	background-color: rgb(255,255,255);
+    box-shadow: 0px -10px 10px -10px 
 }
 
 #portfolio>div {
-	background-color: rgba(0, 0, 255, 0.3);
+    background-color: rgb(255,255,255);
+    box-shadow: 0px -10px 10px -10px 
 }
 
 #kontakt>div {
-	background-color: rgba(255, 255, 0, 0.3);
+    background-color: rgb(255,255,255);
+    box-shadow: 0px -10px 10px -10px 
 }
 
 button {
@@ -141,16 +148,8 @@ button {
 	min-width: 70%;
 	width: 70%;
 	margin: auto;
+    
 }
-
-
-/*
-h3 {
-	margin-top: 0px;
-	padding-top: 5%;
-	text-align: center;
-}
-*/
 
 .tekst p {
 	text-align: justify;
@@ -242,6 +241,7 @@ body {
 	line-height: 50px;
 	text-align: center;
 	color: black;
+    box-shadow: 0px -10px 10px -10px
 }
 
 @media screen and (max-width: 1200px) {
@@ -1327,15 +1327,24 @@ body {
 	#kontakt div {
 		background-color: rgba(255, 255, 0, 0.3);
 	}
-	.kolor {
-		height: 450px;
-	}
+	
 	.kolor>div {
-		height: 450px;
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
+        
 	}
+    
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5%;
+        line-height: 100%;
+    }
+    
 	#strzalka a:visited {
 		text-decoration: none;
 		color: white;
@@ -1363,12 +1372,13 @@ body {
 	body {
 		margin: 0;
 	}
+    
 	.parallax {
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 450px;
+		height: 250px;
 		min-width: 100%;
 		width: 100%;
 		margin: auto;
