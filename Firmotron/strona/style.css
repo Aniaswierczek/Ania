@@ -7,6 +7,7 @@
 	top: 0px;
 	right: 0px;
 	left: 0px;
+    z-index: 10;
 }
 
 #logo1 {
@@ -126,6 +127,7 @@ button {
 	text-align: center;
 	position: fixed;
 	right: 10%;
+    z-index: 10;
 }
 
 .pasy {
@@ -135,11 +137,13 @@ button {
 	height: 2px;
 	width: 18px;
 	margin: 4px auto;
+    z-index: 10;
 }
 
 #paski {
 	margin-bottom: 10px;
 	cursor: pointer;
+    z-index: 10;
 }
 
 .kolor {}
@@ -1234,6 +1238,7 @@ body {
 		left: 0;
 		padding-top: 70px;
 		background-color: none;
+        z-index: 10;
 	}
 	ul.menu2 li {
 		float: none;
@@ -1302,6 +1307,7 @@ body {
 		text-align: center;
 		position: fixed;
 		right: 24px;
+        z-index: 10;
 	}
 	.pasy {
 		background-color: white;
@@ -1310,10 +1316,12 @@ body {
 		height: 2px;
 		width: 18px;
 		margin: 4px auto;
+        z-index: 10;
 	}
 	#paski {
 		margin-bottom: 10px;
 		cursor: pointer;
+        z-index: 10;
 	}
 	#onas div {
 		background-color: rgba(0, 255, 0, 0.3);
@@ -1395,6 +1403,7 @@ body {
 	#zdjecie4 {
 		background-image: url("img/14.jpg");
 	}
+    
 	#stopka {
 		background-color: white;
 		height: 50px;
@@ -1404,4 +1413,5 @@ body {
 		text-align: center;
 		color: black;
 	}
+    
 }
