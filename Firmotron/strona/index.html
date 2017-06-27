@@ -13,10 +13,10 @@
 	<script src="jquery-3.2.1.min.js"></script>
 	<script src="wow.min.js"></script>
 	<script src="smoothScroll.js"></script>
-
+	
 </head>
 
-<body onselectstart="return false;">
+<body >
 	<script>
 		new WOW().init();
 
@@ -95,10 +95,23 @@
 		</div>
 		<div class="kolor" id="portfolio">
 			<div class="tekst">
-
-				<p>
-					Look, Doc, maybe it was mistake. Maybe that grave wasn't yours. There could've been another Emmett Brown back in 1885. Did you have any relatives here back then? (shakes his head 'no') The Browns came to America in 1908, and then they were the Von Brauns. My father changed our name in World War I. Doc! Look! (Thumbing through photos, he has found a picture of Doc on September 5, 1885 in front of the brand new clock now in the clock tower.) Oh! Great Scott! It's me! Then it is true. All of it. It is me who goes back there...and gets shot.My dad told me about these. It is Wild Gunman. (He walks over to the game.) How do you play this thing? Let me show you kid. (He takes his hat off and throws it on top of the game.) I'm a crack shot at this. (Marty fires at the game and sure enough, he's a crack shot. The words "Crack Shot" appear on the screen.)Why am I always the last one to know about these things? (George goes over and opens the front door to reveal Biff waxing the undamaged car.) See, there's Biff out there waxing it right now. Now, Biff, I wanna make sure that we get two coats of wax this time, not just one. Just finishing up the second coat now. Now Biff, don't con me.(w.t) He's got the book, the old man's gone too. I'm locked in Biff's garage. (Lyon Estates) (v.o) You've gotta fly the DeLorean over here and get me the hell out of here. (cut to Garage) The address is 1809 Maple Street. (Lyon Estates) I can't take the DeLorean out in the daylight, but don't worry Marty, somehow I'll get over there.
-				</p>
+                <div id="galeria">
+                    <div class="obrazek">
+                        <img  src="../galeria.jpg" alt="galeria"/>
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/kalkulator.jpg" alt="kalkulator" />
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/papier+wizytowka.jpg" alt="papier"/>
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/rybnik360.jpg" alt="rybnik"/>
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/ulotka.jpg" alt="ulotka"/>
+                    </div>
+                </div>
 			</div>
 		</div>
 
@@ -131,28 +144,15 @@
 
 
 		$('a[href^="#"]').on('click', function(e) {
-			if (this.innerText !== "^") {
-				$("#menu").stop().slideToggle("normal");
-				$("#logo2").stop().fadeToggle(1300);
-				$("#logo1").stop().fadeToggle(1300);
-			}
 			var el = $(e.target.getAttribute('href'));
 			var elOffset = el.offset().top;
 			var elHeight = el.height();
-			var windowHeight = $(window).height();
-			var offset;
-
-			//			if (elHeight < windowHeight) {
-			//				offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
-			//			} else {
-			offset = elOffset;
-			//			}
+            var offset = elOffset;
 
 			$.smoothScroll({
 				speed: 700
 			}, offset);
 			return false;
-
 		});
 
 		$("#logo2").hide();
@@ -164,6 +164,11 @@
 				$("#logo1").stop().fadeToggle(800);
 			});
 		});
+        
+    </script>
+
+        
+        
 
 	</script>
 </body>
