@@ -1,35 +1,39 @@
 .wow {
-	visibility: hidden;
+    visibility: hidden;
+}
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+#menu.stick {
+    margin-top: 0 !important;
+    height: 70px;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+
 }
 
 #menu {
-	height: 70px;
-	line-height: 70px;
-	background-color: white;
-	text-align: center;
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	z-index: 10;
-}
-
-#logo1 {
-	width: 290px;
-	display: inline-block;
-	float: left;
-	position: absolute;
-	top: 13%;
-	left: 21.5%;
+    height: 70px;
+    line-height: 70px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
 }
 
 #logo2 {
-	width: 190px;
-	display: inline-block;
-	float: left;
-	position: absolute;
-	top: 5px;
-	left: 16%;
+    width: 190px;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 5px;
+    left: 16%;
 }
 
 #baner{
@@ -43,81 +47,81 @@
 }
 
 #menu>ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #menu>ul>li {
-	display: inline-block;
+    display: inline-block;
 }
 
 #menu>ul>li>a {
-	text-decoration: none;
-	color: black;
-	text-transform: uppercase;
-	width: 120px;
-	padding-left: 5px;
-	padding-right: 5px;
-	display: block;
-	transition: 0.8s;
-	letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    transition: 0.8s;
+    letter-spacing: 1px;
 }
 
 #li1 {
-	margin-left: 20%;
+    margin-left: 20%;
 }
 
 #li2 {
-	margin-left: 20%;
+    margin-left: 20%;
 }
 
 #li3 {
-	margin-left: 20%;
+    margin-left: 20%;
 }
 
 #li4 {
-	margin-left: 20%;
+    margin-left: 20%;
 }
 
 #li1:hover {
-	background-color: rgb(123, 190, 152);
-	color: rgb(209, 97, 90);
+    background-color: rgb(123, 190, 152);
+    color: rgb(209, 97, 90);
 }
 
 #li2:hover {
-	background-color: rgb(209, 97, 90);
-	color: rgb(123, 190, 152);
+    background-color: rgb(209, 97, 90);
+    color: rgb(123, 190, 152);
 }
 
 #li3:hover {
-	background-color: rgb(108, 183, 213);
-	color: rgb(245, 239, 121);
+    background-color: rgb(108, 183, 213);
+    color: rgb(245, 239, 121);
 }
 
 #li4:hover {
-	background-color: rgb(245, 239, 121);
-	color: rgb(108, 183, 213);
+    background-color: rgb(245, 239, 121);
+    color: rgb(108, 183, 213);
 }
 
 #onas>div {
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px -10px 10px -10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 10px -10px;
 }
 
 #oferta>div {
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px -10px 10px -10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 10px -10px;
 }
 
 #portfolio>div {
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px -10px 10px -10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 10px -10px;
 }
 
 #kontakt>div {
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px -10px 10px -10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 10px -10px;
 }
 
 #galeria {
@@ -126,7 +130,7 @@
 
 .obrazek {
     display: inline-block;
-	width: 28%;
+    width: 28%;
     margin-right: 0;
     padding: 2%;
     position: sticky;
@@ -142,62 +146,88 @@
 
 
 button {
-	visibility: visible;
-	display: block;
-	width: 44px;
-	height: 44px;
-	margin: 5px;
-	text-align: center;
-	background-repeat: repeat-x;
-	color: white;
-	padding-top: 10px;
-	top: 1%;
-	cursor: pointer;
-	border: 1px solid black;
-	background-color: black;
-	line-height: 50px;
-	text-align: center;
-	position: fixed;
-	right: 10%;
-	z-index: 10;
+    visibility: hidden;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: 5px;
+    text-align: center;
+    background-repeat: repeat-x;
+    color: white;
+    padding-top: 10px;
+    top: 1%;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: black;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    right: 10%;
+    z-index: 100;
 }
 
 .pasy {
-	background-color: white;
-	border-radius: 1px 1px 1px 1px;
-	display: block;
-	height: 2px;
-	width: 18px;
-	margin: 4px auto;
-	z-index: 10;
+    background-color: white;
+    border-radius: 1px 1px 1px 1px;
+    display: block;
+    height: 2px;
+    width: 18px;
+    margin: 4px auto;
+    z-index: 10;
 }
 
 #paski {
-	margin-bottom: 10px;
-	cursor: pointer;
-	z-index: 10;
+    margin-bottom: 10px;
+    cursor: pointer;
+    z-index: 10;
 }
 
 .kolor>div {
-	min-width: 70%;
-	width: 70%;
-	margin: auto;
+    min-width: 70%;
+    width: 70%;
+    margin: auto;
 }
 
 .tekst p {
-	text-align: justify;
-	max-width: 80%;
-	word-wrap: break-word;
-	margin: 0 auto;
-	letter-spacing: 0.5px;
-	padding: 5% 15%;
+    text-align: justify;
+    max-width: 80%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+    padding: 5% 15%;
     line-height: 1.5;
-    
+
 }
 
 .www span{
     font-weight: 900;
+
+}
+#kontakt .tekst {
     
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+#kontakt {
+    text-align: center;
+}
+#adres {
+    width: 20%;
+    float: left;
+
+}#adres li{
+    display: inline-block;
+    padding: 3% 0%;
+    line-height: 1.5;
+    vertical-align: top;
+}
+#dane_kontaktowe {
+    width: 70%;
+    float: left;
+}
+td span {
+    font-weight: 900;
 }
 
 .www{
@@ -206,90 +236,90 @@ button {
     margin: 0 3%;
     margin-left: 5%;
     padding: 3% 0%;
-    margin-top: -2%;
     line-height: 1.5;
     vertical-align: top;
 }
 
 body {
-	margin: 0;
+    margin: 0;
 }
 
 .parallax {
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 250px;
-	min-width: 70%;
-	width: 70%;
-	margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    min-width: 70%;
+    width: 70%;
+    margin: auto;
     clear: both;
 }
 
 .parallax h1 {
-	text-align: center;
-	margin: 0;
-	display: block;
-	width: 100%;
-	line-height: 250px;
-	color: white;
-	font-weight: bold;
-	padding: 0;
-	font-size: 30px;
-	text-shadow: 3px 3px #000;
-	font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 0;
+    display: block;
+    width: 100%;
+    line-height: 250px;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 3px 3px #000;
+    font-family: "Roboto", sans-serif;
 }
 
 #zdjecie1 {
-	background-image: url("img/11.jpg");
+    background-image: url("img/11.jpg");
 }
 
 #zdjecie2 {
-	background-image: url("img/12.jpg");
+    background-image: url("img/12.jpg");
 }
 
 #zdjecie3 {
-	background-image: url("img/13.jpg");
+    background-image: url("img/13.jpg");
 }
 
 #zdjecie4 {
-	background-image: url("img/14.jpg");
+    background-image: url("img/14.jpg");
 }
 
 #stopka {
-	background-color: white;
-	height: 50px;
-	min-width: 70%;
-	width: 70%;
-	margin: auto;
-	line-height: 50px;
-	text-align: center;
-	color: black;
-	box-shadow: 0px -10px 10px -10px
+    background-color: white;
+    height: 50px;
+    min-width: 70%;
+    width: 70%;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    clear: both;
+    box-shadow: 0px -10px 10px -10px
 }
 /*////////////////////////////////////////////////////*/
 
-@media screen and (max-width: 1200px) {
-	#logo1 {
-		visibility: hidden;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 3%;
-		left: 10%;
-	}
-	#logo2 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 8%;
-		left: 10%;
-	}
-    
+@media screen and (max-width: 1210px) {
+    #logo1 {
+        visibility: hidden;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 3%;
+        left: 10%;
+    }
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
+    }
+
     #baner{
         width:70%;
         height: 300px;
@@ -300,414 +330,187 @@ body {
         background-size:contain;
         background-repeat: no-repeat;
     }
-	#menu {
-		width: 100%;
-		line-height: 50px;
-		height: 200px;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		padding-top: 70px;
-		background-color: none;
-		z-index: 10;
-	}
-	ul.menu2 li {
-		float: none;
-		width: 100%;
-		background-color: white;
-		z-index: 10;
-	}
-	#li1 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	#li2 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	#li3 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	#li4 {
-		min-width: 100%;
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	#li1:hover {
-		background-color: rgb(123, 190, 152);
-		color: rgb(209, 97, 90);
-		width: 100%;
-		z-index: 10;
-	}
-	#li2:hover {
-		background-color: rgb(209, 97, 90);
-		color: rgb(123, 190, 152);
-		width: 100%;
-		z-index: 10;
-	}
-	#li3:hover {
-		background-color: rgb(108, 183, 213);
-		color: rgb(245, 239, 121);
-		width: 100%;
-		z-index: 10;
-	}
-	#li4:hover {
-		background-color: rgb(245, 239, 121);
-		color: rgb(108, 183, 213);
-		width: 100%;
-		z-index: 10;
-	}
-	button {
-		visibility: visible;
-		display: block;
-		width: 44px;
-		height: 44px;
-		margin: 5px;
-		text-align: center;
-		background-repeat: repeat-x;
-		color: white;
-		padding-top: 10px;
-		top: 1%;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		text-align: center;
-		position: fixed;
-		right: 24px;
-		z-index: 10;
-	}
-	.pasy {
-		background-color: white;
-		border-radius: 1px 1px 1px 1px;
-		display: block;
-		height: 2px;
-		width: 18px;
-		margin: 4px auto;
-		z-index: 10;
-	}
-	#paski {
-		margin-bottom: 10px;
-		cursor: pointer;
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        height: 200px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-top: 70px;
+        background-color: none;
         z-index: 10;
-	}
-	#onas div {
+    }
+    ul.menu2 li {
+        float: none;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+    }
+    #li1 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+    #li2 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+    #li3 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+    #li4 {
+        min-width: 100%;
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+    #li1:hover {
+        background-color: rgb(123, 190, 152);
+        color: rgb(209, 97, 90);
+        width: 100%;
+        z-index: 10;
+    }
+    #li2:hover {
+        background-color: rgb(209, 97, 90);
+        color: rgb(123, 190, 152);
+        width: 100%;
+        z-index: 10;
+    }
+    #li3:hover {
+        background-color: rgb(108, 183, 213);
+        color: rgb(245, 239, 121);
+        width: 100%;
+        z-index: 10;
+    }
+    #li4:hover {
+        background-color: rgb(245, 239, 121);
+        color: rgb(108, 183, 213);
+        width: 100%;
+        z-index: 10;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 24px;
+        z-index: 100;
+    }
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    #onas div {
         background-color: rgb(255, 255, 255);
         box-shadow: 0px -10px 10px -10px;
-	}
-	#oferta div {
+    }
+    #oferta div {
         background-color: rgb(255, 255, 255);
         box-shadow: 0px -10px 10px -10px;
-	}
-	#portfolio div {
+    }
+    #portfolio div {
         background-color: rgb(255, 255, 255);
         box-shadow: 0px -10px 10px -10px;
-	}
-	#kontakt div {
+    }
+    #kontakt div {
         background-color: rgb(255, 255, 255);
         box-shadow: 0px -10px 10px -10px;
-	}
-    
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-    
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
     #galeria div{
         box-shadow: none;
     }
-	
-	body {
-		margin: 0;
-	}
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-		line-height: 50px;
-		text-align: center;
-		color: black;
-		z-index: 10;
-	}
+
+    body {
+        margin: 0;
+    }
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    #zdjecie1 {
+        background-image: url("img/11.jpg");
+    }
+    #zdjecie2 {
+        background-image: url("img/12.jpg");
+    }
+    #zdjecie3 {
+        background-image: url("img/13.jpg");
+    }
+    #zdjecie4 {
+        background-image: url("img/14.jpg");
+    }
+    #stopka {
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        z-index: 10;
+    }
 }
 
 /*/////////////////////////////////////////////////*/
 
 @media screen and (max-width: 1080px) {
-	#logo1 {
-		visibility: hidden;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 1.5%;
-		left: 10%;
-		z-index: 10;
-	}
-	
-	#logo2 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 8%;
-		left: 10%;
-		z-index: 10;
-	}
-    
-    #baner{
-        width:70%;
-        height: 300px;
-        margin:auto;
-        background-image: url(img/baner2.jpg);
-        margin: auto 0;
-        margin-left: 14%;
-        background-size:contain;
-        background-repeat: no-repeat;
-    }
-	
-	#menu {
-		width: 100%;
-		line-height: 50px;
-		height: 200px;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		padding-top: 70px;
-		background-color: none;
-		z-index: 10;
-	}
-	
-	ul.menu2 li {
-		float: none;
-		width: 100%;
-		background-color: white;
-		z-index: 10;
-	}
-	
-	#li1 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li2 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li3 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li4 {
-		min-width: 100%;
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li1:hover {
-		background-color: rgb(123, 190, 152);
-		color: rgb(209, 97, 90);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li2:hover {
-		background-color: rgb(209, 97, 90);
-		color: rgb(123, 190, 152);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li3:hover {
-		background-color: rgb(108, 183, 213);
-		color: rgb(245, 239, 121);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li4:hover {
-		background-color: rgb(245, 239, 121);
-		color: rgb(108, 183, 213);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	button {
-		visibility: visible;
-		display: block;
-		width: 44px;
-		height: 44px;
-		margin: 5px;
-		text-align: center;
-		background-repeat: repeat-x;
-		color: white;
-		padding-top: 10px;
-		top: 1%;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		text-align: center;
-		position: fixed;
-		right: 3%;
-		z-index: 10;
-	}
-	
-	.pasy {
-		background-color: white;
-		border-radius: 1px 1px 1px 1px;
-		display: block;
-		height: 2px;
-		width: 18px;
-		margin: 4px auto;
-		z-index: 10;
-	}
-	
-	#paski {
-		margin-bottom: 10px;
-		cursor: pointer;
-		z-index: 10;
-	}
-	
-	#onas div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#oferta div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#portfolio div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#kontakt div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	
-	body {
-		margin: 0;
-	}
-	
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-		line-height: 50px;
-		text-align: center;
-		color: black;
-	}
-    
-    #galeria div{
-        box-shadow: none;
-    }
-}
-
-/*//////////////////////////////////////////////*/
-
-@media screen and (max-width: 1024px) {
     #logo1 {
         visibility: hidden;
-        width: 250px;
+        width: 150px;
         display: inline-block;
         float: left;
         position: absolute;
-        top: 10%;
-        left: 20%;
+        top: 1.5%;
+        left: 10%;
         z-index: 10;
     }
 
@@ -721,7 +524,7 @@ body {
         left: 10%;
         z-index: 10;
     }
-    
+
     #baner{
         width:70%;
         height: 300px;
@@ -832,7 +635,7 @@ body {
         text-align: center;
         position: fixed;
         right: 3%;
-        z-index: 10;
+        z-index: 100;
     }
 
     .pasy {
@@ -918,7 +721,237 @@ body {
         text-align: center;
         color: black;
     }
-    
+
+    #galeria div{
+        box-shadow: none;
+    }
+}
+
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 1024px) {
+    #adres {
+        font-size: 13px;
+    }
+    #logo1 {
+        visibility: hidden;
+        width: 250px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        z-index: 10;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
+        z-index: 10;
+    }
+
+    #baner{
+        width:70%;
+        height: 300px;
+        margin:auto;
+        background-image: url(img/baner2.jpg);
+        margin: auto 0;
+        margin-left: 14%;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        height: 200px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-top: 70px;
+        background-color: none;
+        z-index: 10;
+    }
+
+    ul.menu2 li {
+        float: none;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+    }
+
+    #li1 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li2 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li3 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li4 {
+        min-width: 100%;
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li1:hover {
+        background-color: rgb(123, 190, 152);
+        color: rgb(209, 97, 90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209, 97, 90);
+        color: rgb(123, 190, 152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108, 183, 213);
+        color: rgb(245, 239, 121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245, 239, 121);
+        color: rgb(108, 183, 213);
+        width: 100%;
+        z-index: 10;
+    }
+
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 3%;
+        z-index: 100;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    #onas div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #oferta div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/11.jpg");
+    }
+
+    #zdjecie2 {
+        background-image: url("img/12.jpg");
+    }
+
+    #zdjecie3 {
+        background-image: url("img/13.jpg");
+    }
+
+    #zdjecie4 {
+        background-image: url("img/14.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
+
     #galeria div{
         box-shadow: none;
     }
@@ -927,28 +960,40 @@ body {
 /*///////////////////////////////////////////////*/
 
 @media screen and (max-width: 800px) {
-	#logo1 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 3%;
-		left: 10%;
-		z-index: 10;
-	}
-	
-	#logo2 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 8%;
-		left: 10%;
-		z-index: 10;
-	}
-    
+    #dane {
+        display:flex;
+        box-shadow: none !important; 
+        justify-content:center;
+        align-items:center;
+    }
+    #adres {
+        font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+    float: none;
+   
+    #logo1 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 3%;
+        left: 10%;
+        z-index: 10;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
+        z-index: 10;
+    }
+
     #baner{
         width:70%;
         height: 250px;
@@ -959,149 +1004,149 @@ body {
         background-size:contain;
         background-repeat: no-repeat;
     }
-	
-	#menu {
-		width: 100%;
-		line-height: 50px;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		padding-top: 70px;
-		background-color: none;
-		z-index: 10;
-	}
-	
-	ul.menu2 li {
-		float: none;
-		width: 100%;
-		background-color: white;
-		z-index: 10;
-	}
-	
-	#li1 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li2 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li3 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li4 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li1:hover {
-		background-color: rgb(123, 190, 152);
-		color: rgb(209, 97, 90);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li2:hover {
-		background-color: rgb(209, 97, 90);
-		color: rgb(123, 190, 152);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li3:hover {
-		background-color: rgb(108, 183, 213);
-		color: rgb(245, 239, 121);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li4:hover {
-		background-color: rgb(245, 239, 121);
-		color: rgb(108, 183, 213);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	button {
-		visibility: visible;
-		display: block;
-		width: 44px;
-		height: 44px;
-		margin: 5px;
-		text-align: center;
-		background-repeat: repeat-x;
-		color: white;
-		padding-top: 10px;
-		top: 1%;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		text-align: center;
-		position: fixed;
-		right: 24px;
-		z-index: 10;
-	}
-	
-	.pasy {
-		background-color: white;
-		border-radius: 1px 1px 1px 1px;
-		display: block;
-		height: 2px;
-		width: 18px;
-		margin: 4px auto;
-		z-index: 10;
-	}
-	
-	#paski {
-		margin-bottom: 10px;
-		cursor: pointer;
-		z-index: 10;
-	}
-	
-	#onas div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#oferta div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#portfolio div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#kontakt div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-    
+
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-top: 70px;
+        background-color: none;
+        z-index: 10;
+    }
+
+    ul.menu2 li {
+        float: none;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+    }
+
+    #li1 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li2 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li3 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li4 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li1:hover {
+        background-color: rgb(123, 190, 152);
+        color: rgb(209, 97, 90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209, 97, 90);
+        color: rgb(123, 190, 152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108, 183, 213);
+        color: rgb(245, 239, 121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245, 239, 121);
+        color: rgb(108, 183, 213);
+        width: 100%;
+        z-index: 10;
+    }
+
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 24px;
+        z-index: 100;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    #onas div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #oferta div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
     .www{
         display: inline-block;
         width: 50%;
@@ -1112,49 +1157,49 @@ body {
         vertical-align: top;
         text-align: justify;
     }
-	
-	body {
-		margin: 0;
-	}
-	
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-		line-height: 50px;
-		text-align: center;
-		color: black;
-	}
-    
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/11.jpg");
+    }
+
+    #zdjecie2 {
+        background-image: url("img/12.jpg");
+    }
+
+    #zdjecie3 {
+        background-image: url("img/13.jpg");
+    }
+
+    #zdjecie4 {
+        background-image: url("img/14.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
+
     #galeria div{
         box-shadow: none;
     }
@@ -1163,41 +1208,41 @@ body {
 /*///////////////////////////////////////////////*/
 
 @media screen and (max-width: 768px) {
-	#logo1 {
-		visibility: hidden;
-		width: 180px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 5.5%;
-		left: 20%;
-		z-index: 10;
-	}
-	
-	#logo2 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 8%;
-		left: 10%;
-		z-index: 10;
-	}
-	
-	#menu {
-		width: 100%;
-		line-height: 50px;
-		height: 200px;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		padding-top: 70px;
-		background-color: none;
-		z-index: 10;
-	}
-    
+    #logo1 {
+        visibility: hidden;
+        width: 180px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 5.5%;
+        left: 20%;
+        z-index: 10;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 8%;
+        left: 10%;
+        z-index: 10;
+    }
+
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        height: 200px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-top: 70px;
+        background-color: none;
+        z-index: 10;
+    }
+
     #baner{
         width:70%;
         height: 250px;
@@ -1208,137 +1253,137 @@ body {
         background-size:contain;
         background-repeat: no-repeat;
     }
-	
-	ul.menu2 li {
-		float: none;
-		width: 100%;
-		background-color: white;
-		z-index: 10;
-	}
-	
-	#li1 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li2 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li3 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li4 {
-		min-width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li1:hover {
-		background-color: rgb(123, 190, 152);
-		color: rgb(209, 97, 90);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li2:hover {
-		background-color: rgb(209, 97, 90);
-		color: rgb(123, 190, 152);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li3:hover {
-		background-color: rgb(108, 183, 213);
-		color: rgb(245, 239, 121);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li4:hover {
-		background-color: rgb(245, 239, 121);
-		color: rgb(108, 183, 213);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	button {
-		visibility: visible;
-		display: block;
-		width: 44px;
-		height: 44px;
-		margin: 5px;
-		text-align: center;
-		background-repeat: repeat-x;
-		color: white;
-		padding-top: 10px;
-		top: 2%;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		text-align: center;
-		position: fixed;
-		right: 24px;
-		z-index: 10;
-	}
-	
-	.pasy {
-		background-color: white;
-		border-radius: 1px 1px 1px 1px;
-		display: block;
-		height: 2px;
-		width: 18px;
-		margin: 4px auto;
-		z-index: 10;
-	}
-	
-	#paski {
-		margin-bottom: 10px;
-		cursor: pointer;
-		z-index: 10;
-	}
-	
-	#onas div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#oferta div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#portfolio div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#kontakt div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-    
+
+    ul.menu2 li {
+        float: none;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+    }
+
+    #li1 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li2 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li3 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li4 {
+        min-width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li1:hover {
+        background-color: rgb(123, 190, 152);
+        color: rgb(209, 97, 90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209, 97, 90);
+        color: rgb(123, 190, 152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108, 183, 213);
+        color: rgb(245, 239, 121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245, 239, 121);
+        color: rgb(108, 183, 213);
+        width: 100%;
+        z-index: 10;
+    }
+
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 2%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 24px;
+        z-index: 100;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    #onas div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #oferta div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
     .www{
         display: inline-block;
         width: 50%;
@@ -1349,49 +1394,49 @@ body {
         vertical-align: top;
         text-align: justify;
     }
-	
-	body {
-		margin: 0;
-	}
-	
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-		line-height: 50px;
-		text-align: center;
-		color: black;
-	}
-    
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/11.jpg");
+    }
+
+    #zdjecie2 {
+        background-image: url("img/12.jpg");
+    }
+
+    #zdjecie3 {
+        background-image: url("img/13.jpg");
+    }
+
+    #zdjecie4 {
+        background-image: url("img/14.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
+
     #galeria div{
         box-shadow: none;
     }
@@ -1531,7 +1576,7 @@ body {
         text-align: center;
         position: fixed;
         right: 24px;
-        z-index: 10;
+        z-index: 100;
     }
 
     .pasy {
@@ -1628,7 +1673,7 @@ body {
         text-align: center;
         color: black;
     }
-    
+
     #galeria div{
         box-shadow: none;
     }
@@ -1767,7 +1812,7 @@ body {
         text-align: center;
         position: fixed;
         right: 24px;
-        z-index: 10;
+        z-index: 100;
     }
 
     .pasy {
@@ -1865,7 +1910,7 @@ body {
         color: black;
         font-size: 13px;
     }
-    
+
     #galeria div{
         box-shadow: none;
     }
@@ -2005,7 +2050,7 @@ body {
         text-align: center;
         position: fixed;
         right: 24px;
-        z-index: 10;
+        z-index: 100;
     }
 
     .pasy {
@@ -2102,7 +2147,7 @@ body {
         text-align: center;
         color: black;
     }
-    
+
     #galeria div{
         box-shadow: none;
     }
@@ -2242,7 +2287,7 @@ body {
         text-align: center;
         position: fixed;
         right: 24px;
-        z-index: 10;
+        z-index: 100;
     }
 
     .pasy {
@@ -2339,7 +2384,7 @@ body {
         text-align: center;
         color: black;
     }
-    
+
     #galeria div{
         box-shadow: none;
     }
@@ -2479,7 +2524,7 @@ body {
         text-align: center;
         position: fixed;
         right: 24px;
-        z-index: 10;
+        z-index: 100;
     }
 
     .pasy {
@@ -2585,7 +2630,7 @@ body {
         text-align: center;
         color: black;
     }
-    
+
     #galeria div{
         box-shadow: none;
     }
@@ -2725,7 +2770,7 @@ body {
         text-align: center;
         position: fixed;
         right: 24px;
-        z-index: 10;
+        z-index: 100;
     }
 
     .pasy {
@@ -2831,7 +2876,7 @@ body {
         text-align: center;
         color: black;
     }
-    
+
     #galeria div{
         box-shadow: none;
     }
@@ -2840,28 +2885,28 @@ body {
 /*///////////////////////////////////////////////*/
 
 @media screen and (max-width: 320px) {
-	#logo1 {
-		visibility: hidden;
-		width: 0px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 4%;
-		left: 20.5%;
-		z-index: 10;
-	}
-	
-	#logo2 {
-		visibility: visible;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		position: absolute;
-		top: 5%;
-		left: 10%;
-		z-index: 10;
-	}
-    
+    #logo1 {
+        visibility: hidden;
+        width: 0px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 4%;
+        left: 20.5%;
+        z-index: 10;
+    }
+
+    #logo2 {
+        visibility: visible;
+        width: 150px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        z-index: 10;
+    }
+
     #baner{
         width:70%;
         height: 150px;
@@ -2872,160 +2917,160 @@ body {
         background-size:contain;
         background-repeat: no-repeat;
     }
-    
-	#menu {
-		width: 100%;
-		line-height: 50px;
-		height: 200px;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		padding-top: 70px;
-		background-color: none;
-		z-index: 10;
-	}
-	
-	ul.menu2 li {
-		float: none;
-		width: 100%;
-		background-color: white;
-		z-index: 10;
-	}
-	
-	#li1 {
-		width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li2 {
-		width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li3 {
-		width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li4 {
-		width: 100%;
-		float: none;
-		background-color: white;
-		margin: auto;
-		z-index: 10;
-	}
-	
-	#li1:hover {
-		background-color: rgb(123, 190, 152);
-		color: rgb(209, 97, 90);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li2:hover {
-		background-color: rgb(209, 97, 90);
-		color: rgb(123, 190, 152);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li3:hover {
-		background-color: rgb(108, 183, 213);
-		color: rgb(245, 239, 121);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	#li4:hover {
-		background-color: rgb(245, 239, 121);
-		color: rgb(108, 183, 213);
-		width: 100%;
-		z-index: 10;
-	}
-	
-	button {
-		visibility: visible;
-		display: block;
-		width: 44px;
-		height: 44px;
-		margin: 5px;
-		text-align: center;
-		background-repeat: repeat-x;
-		color: white;
-		padding-top: 10px;
-		top: 1%;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: black;
-		line-height: 50px;
-		text-align: center;
-		position: fixed;
-		right: 24px;
-		z-index: 10;
-	}
-	
-	.pasy {
-		background-color: white;
-		border-radius: 1px 1px 1px 1px;
-		display: block;
-		height: 2px;
-		width: 18px;
-		margin: 4px auto;
-		z-index: 10;
-	}
-	
-	#paski {
-		margin-bottom: 10px;
-		cursor: pointer;
-		z-index: 10;
-	}
-	
-	#onas div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#oferta div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#portfolio div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	#kontakt div {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px -10px 10px -10px;
-	}
-	
-	.kolor>div {
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	
-	.tekst p {
-		text-align: justify;
-		max-width: 80%;
-		word-wrap: break-word;
-		margin: 0 auto;
-		letter-spacing: 0.5px;
-		padding: 5%;
-		line-height: 100%;
-	}
-    
+
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        height: 200px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-top: 70px;
+        background-color: none;
+        z-index: 10;
+    }
+
+    ul.menu2 li {
+        float: none;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+    }
+
+    #li1 {
+        width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li2 {
+        width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li3 {
+        width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li4 {
+        width: 100%;
+        float: none;
+        background-color: white;
+        margin: auto;
+        z-index: 10;
+    }
+
+    #li1:hover {
+        background-color: rgb(123, 190, 152);
+        color: rgb(209, 97, 90);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li2:hover {
+        background-color: rgb(209, 97, 90);
+        color: rgb(123, 190, 152);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li3:hover {
+        background-color: rgb(108, 183, 213);
+        color: rgb(245, 239, 121);
+        width: 100%;
+        z-index: 10;
+    }
+
+    #li4:hover {
+        background-color: rgb(245, 239, 121);
+        color: rgb(108, 183, 213);
+        width: 100%;
+        z-index: 10;
+    }
+
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 24px;
+        z-index: 100;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    #onas div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #oferta div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5%;
+        line-height: 100%;
+    }
+
     .www{
         display: inline-block;
         width: 50%;
@@ -3036,48 +3081,48 @@ body {
         vertical-align: top;
         text-align: justify;
     }
-	
-	body {
-		margin: 0;
-	}
-	
-	.parallax {
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 250px;
-		min-width: 100%;
-		width: 100%;
-		margin: auto;
-	}
-	
-	#zdjecie1 {
-		background-image: url("img/11.jpg");
-	}
-	
-	#zdjecie2 {
-		background-image: url("img/12.jpg");
-	}
-	
-	#zdjecie3 {
-		background-image: url("img/13.jpg");
-	}
-	
-	#zdjecie4 {
-		background-image: url("img/14.jpg");
-	}
-	
-	#stopka {
-		background-color: white;
-		height: 50px;
-		min-width: 100%;
-		width: 100%;
-		line-height: 50px;
-		text-align: center;
-		color: black;
-	}
-    
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #zdjecie1 {
+        background-image: url("img/11.jpg");
+    }
+
+    #zdjecie2 {
+        background-image: url("img/12.jpg");
+    }
+
+    #zdjecie3 {
+        background-image: url("img/13.jpg");
+    }
+
+    #zdjecie4 {
+        background-image: url("img/14.jpg");
+    }
+
+    #stopka {
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+    }
+
     #galeria div{
         box-shadow: none;
     }
