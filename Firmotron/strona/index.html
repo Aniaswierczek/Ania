@@ -126,25 +126,25 @@
             <div class="kolor" id="kontakt">
                 <div class="tekst">
                     <ul id="adres">
-                        <li><span> ul. Armii Krajowej 25 lok. 7<br/>
+                        <li><span> ul. Armii Krajowej 25 lokal&nbsp;nr&nbsp;7<br/>
                                 44-330 Jastrzębie-Zdrój 
                             </span></li>
                     </ul>
                     <div id="dane">
                         <table id="dane_kontaktowe">
-                            <tr><td><span>Imię i nazwisko</span><br/> stanowisko<br/><span>tel: </span></td>
-                                <td><span>Karol Mazur</span><br/>Menadżer ds. sprzedaży / programista <br/><span>tel: </span></td></tr>
+                            <tr><td><span>Przemysław Łódtka</span><br/> Menadżer / Grafik<br/><span>tel: 533&nbsp;433&nbsp;993 </span></td>
+                                <td><span>Karol Mazur</span><br/>Menadżer<br/> ds. sprzedaży / Programista <br/><span>tel: 883&nbsp;052&nbsp;024 </span></td></tr>
 
-                            <tr><td><span>Imię i nazwisko</span><br/> stanowisko<br/><span>tel: </span></td>
-                                <td><span>Ewa Myśliwiec</span><br/>programista<br/><span>tel: </span></td></tr>
-
+                            <tr><td><br/><span>Anna Świerczek</span><br/> Grafik<br/><span>tel: 510&nbsp;347&nbsp;956 </span></td>
+                                <td><br/><span>Ewa Myśliwiec</span><br/>programista<br/><span>tel: 575&nbsp;983&nbsp;435</span></td></tr>
                         </table>
                     </div>
                 </div>
             </div>
 
             <div id="stopka"><span>SensuGroup &copy; 2017</span></div>
-
+        <div id="stopka2"><span> Przemysław Łódtka, Karol Mazur, Ewa Myśliwiec, Anna&nbsp;Świerczek &copy;&nbsp;2017</span></div>
+            <div id="logoUnia" class="kolor"><img src="img/logounia.jpg" alt="logoUnia" /></div>
 
             <script>
 
@@ -205,6 +205,17 @@
                         $("#logo2").stop().fadeToggle(800);
                     });
                 });
+                
+                $("#stopka2").hide();
+                $("#stopka").click(function(){
+                    $("#stopka").stop().fadeOut("fast");
+                    $("#stopka2").stop().delay(200).fadeIn("fast")
+                })
+                
+                $("#stopka2").click(function(){
+                    $("#stopka2").stop().fadeOut("fast");
+                    $("#stopka").stop().delay(200).fadeIn("fast");
+                })
             </script>
 
 
