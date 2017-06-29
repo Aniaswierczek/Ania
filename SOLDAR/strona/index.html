@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <title>SensuGropu</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="tekst" />
+        <meta name="description" content="tekst" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./wachlarzlogo.png" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="animate.css" />
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="wow.min.js"></script>
+        <script src="smoothScroll.js"></script>
+
+    </head>
+
+    <body bgcolor="gray">
+        <script>
+            new WOW().init();
+
+        </script>
+        <div>
+          
+            <div id="menu">
+                <div id="logo">
+                    <img id="logo2" src="SOLDARlogo.png" alt="logo" />
+                </div>
+                <!--duża strona-->
+<!--                <div id="control">-->
+                    <ul class="menu2">
+                        <li><a id="li2" href="#zdjecie2">Usługi</a></li>
+                        <li><a id="li3" href="#zdjecie3">Portfolio</a></li>
+                        <li><a id="li4" href="#zdjecie4">kontakt</a></li>
+                    </ul>
+<!--                </div>-->
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div id="btn">
+                <button type="button" id="guzik" />
+                <label for="button">
+                    <div id="paski">
+                        <span class="pasy"></span>
+                        <span class="pasy"></span>
+                        <span class="pasy"></span>
+                    </div>
+                </label>
+            </div>
+
+            <div id="baner"></div>
+
+            <div id="zdjecie2" class="parallax">
+
+                <h1><span>U</span><span>s</span><span>ł</span><span>u</span><span>g</span><span>i</span></h1>
+
+            </div>
+            <div class="kolor" id="uslugi">
+                <div class="tekst">
+
+                <p>
+                    <ul class="uslugi">
+                        <li class="www">
+                            <span>Strony www:<br/></span><br/>Tworzymy nowoczesne strony www od wypracowanej z&nbsp;klientem koncepcji, poprzez design aż do wdrożenia.
+                        </li>
+                        <li class="www">
+                            <span>Identyfikacje wizualne:<br/></span><br/>Profesjonalne propozycje logotypu, dopasowane, nowoczesne wizytówki, projekt papieru firmowego, księgi znaku oraz wiele innych.
+                        </li>
+                        <li class="www">
+                            <span>Reklama zewnętrzna:<br/></span><br/>billboardy, plakaty, ulotki, reklama na samochody oraz wiele więcej...
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div id="zdjecie3" class="parallax">
+
+            <h1><span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span></h1>
+
+        </div>
+        <div class="kolor" id="portfolio">
+            <div class="tekst">
+                <div id="galeria">
+                    <div class="obrazek">
+                        <img  src="../galeria.jpg" alt="galeria"/>
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/kalkulator.jpg" alt="kalkulator" />
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/papier+wizytowka.jpg" alt="papier"/>
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/rybnik360.jpg" alt="rybnik"/>
+                    </div>
+                    <div class="obrazek">
+                        <img src="../mockupy/ulotka.jpg" alt="ulotka"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="zdjecie4" class="parallax">
+
+            <h1><span>K</span><span>o</span><span>n</span><span>t</span><span>a</span><span>k</span><span>t</span></h1>
+
+        </div>
+        <div class="kolor" id="kontakt">
+            <div class="tekst">
+
+                <p>
+                    Yeah, I'll keep that in mind. Good, I'll see you tonight. Don't forget, now, 1:15 a.m., Twin Pines Mall. Right. (All of a sudden all the clocks in the room begin going off. It's very loud.) Are those my clocks I hear?(Biff gets out of the DeLorean. The top of his cane breaks off and stays in there.) Oh, oh, ahh! (Marty and Doc are running down the street carrying Jennifer.) She encountered her future self and went into shock, just as I predicted. She'll be fine - lets get her back to 1985. And then I'm going to destroy the time machine! Destroy it? What about all that stuff about humanity? Where we're going and why?
+                </p>
+            </div>
+        </div>
+
+        <div id="stopka"><span>SensuGroup &copy; 2017</span></div>
+
+
+        <script>
+            $.each($("h1 > span"), function(i) {
+                i = Math.floor(Math.random() * 2);
+
+                $(this).addClass("wow fadeIn");
+                $(this).attr("data-wow-duration", "0.8s");
+                $(this).attr("data-wow-delay", i + "s");
+            });
+
+
+
+            $('a[href^="#"]').on('click', function(e) {
+                var el = $(e.target.getAttribute('href'));
+                var elOffset = el.offset().top;
+                var elHeight = el.height();
+                var offset = elOffset;
+
+                $.smoothScroll({
+                    speed: 700
+                }, offset);
+                return false;
+            });
+
+            $("#logo").hide();
+            $("#menu").hide();
+            $(document).ready(function() {
+                $("#btn").click(function() {
+                    $("#menu").stop().slideToggle("normal");
+                    $("#logo").stop().fadeToggle(800);
+                    $("#logo1").stop().fadeToggle(800);
+                });
+            });
+
+        </script>
+    </body>
+
+</html>
