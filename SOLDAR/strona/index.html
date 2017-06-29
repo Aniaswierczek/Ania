@@ -49,11 +49,9 @@
                 </label>
             </div>
 
-            <div id="baner"></div>
-
             <div id="zdjecie2" class="parallax">
 
-                <h1><span>U</span><span>s</span><span>ł</span><span>u</span><span>g</span><span>i</span></h1>
+                <h1><span>P</span><span>r</span><span>o</span><span>f</span><span>e</span><span>s</span><span>j</span><span>o</span><span>n</span><span>a</span><span>l</span><span>n</span><span>e</span><span>&nbsp;</span><span>u</span><span>s</span><span>ł</span><span>u</span><span>g</span><span>i</span><span>&nbsp;</span><span>s</span><span>p</span><span>a</span><span>w</span><span>a</span><span>l</span><span>n</span><span>i</span><span>c</span><sapn>z</sapn><span>e</span></h1>
 
             </div>
             <div class="kolor" id="uslugi">
@@ -75,9 +73,9 @@
             </div>
         </div>
 
-        <div id="zdjecie3" class="parallax">
+        <div id="naglowek" class="parallax">
 
-            <h1><span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span></h1>
+            <h2><span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span></h2>
 
         </div>
         <div class="kolor" id="portfolio">
@@ -102,9 +100,9 @@
             </div>
         </div>
 
-        <div id="zdjecie4" class="parallax">
+        <div id="naglowek" class="parallax">
 
-            <h1><span>K</span><span>o</span><span>n</span><span>t</span><span>a</span><span>k</span><span>t</span></h1>
+            <h2><span>K</span><span>o</span><span>n</span><span>t</span><span>a</span><span>k</span><span>t</span></h2>
 
         </div>
         <div class="kolor" id="kontakt">
@@ -121,6 +119,13 @@
 
         <script>
             $.each($("h1 > span"), function(i) {
+                i = Math.floor(Math.random() * 2);
+
+                $(this).addClass("wow fadeIn");
+                $(this).attr("data-wow-duration", "0.8s");
+                $(this).attr("data-wow-delay", i + "s");
+            });
+            $.each($("h2 > span"), function(i) {
                 i = Math.floor(Math.random() * 2);
 
                 $(this).addClass("wow fadeIn");
