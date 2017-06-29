@@ -42,22 +42,20 @@
 }
 
 #menu>ul {
+    width: 550px;
     list-style-type: none;
     display: inline-block;
     margin: 0 20%;
     padding: auto;
+    margin-left: 315px;
 }
 
-#menu>ul>li {
-    display: inline-block;
-}
 
 #menu>ul>li>a {
-    background-color: red;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    width: 120px;
+    width: 170px;
     padding-left: 5px;
     padding-right: 5px;
     display: inline-block;    
@@ -65,55 +63,24 @@
     letter-spacing: 1px;
 }
 
-#control {
-	width: 37%;
-    height: 95%;
-    list-style: none;
-    display: inline-block; 
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    left: 0;
-    margin-left: 20%;
-}
-/*
 #li1 {
-    margin-left: 90%;
+    float: left;
+    display:inline-block;
 }
-*/
-/*
 
 #li2 {
-    margin-left: 30%;
+    float: left;
+    display:inline-block;
 }
 
 #li3 {
-    margin-left: 30%;
+    float: left;
+    display:inline-block;
 }
 
-#li4 {
-    margin-left: 30%;
-}
-*/
-
-#li1:hover {
-    background-color: rgb(123, 190, 152);
-    color: rgb(209, 97, 90);
-}
-
-#li2:hover {
-    background-color: rgb(209, 97, 90);
-    color: rgb(123, 190, 152);
-}
-
-#li3:hover {
-    background-color: rgb(108, 183, 213);
-    color: rgb(245, 239, 121);
-}
-
-#li4:hover {
-    background-color: rgb(245, 239, 121);
-    color: rgb(108, 183, 213);
+#menu>ul>li>a:hover {
+    background-color: gray;
+    color: white;
 }
 
 #onas>div {
