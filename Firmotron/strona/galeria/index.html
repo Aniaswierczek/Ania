@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Galeria zdjęć</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+<!--        <script src='skrypt.js'></script>-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+        <div id="powrot"><a href="../index.html">Powrót do poprzedniej strony</a></div>
+        <div id='box'>
+            <div id='polaroid1'></div>
+            <div id='polaroid2'></div>
+            <div id='polaroid3'></div>
+            <div id='polaroid4'></div>
+            <div id='polaroid5'></div>
+            <div id='polaroid6'></div>
+            <div id='polaroid7'></div>
+            <div id='polaroid8'></div>
+        </div>
+        <script>
+            var photos = ['buty.jpg', 'zapiecie.jpg','spinka.jpg','rece.jpg','samochod.jpg','kwiaty.jpg', 'perfumy.jpg', 'serce.jpg'];
+            var polaroids = ['1', '2', '3', '4', '5', '6', '7', '8'];
+            var names = ['Buty Panny młodej', 'Przygotowania Panny<br/>młodej', 'Przygotowania Pana<br/> młodego', 'Przygotowania Panny<br/> młodej', 'Ozdoby na samochodzie', 'Wiązanka', 'Perfumy','Prześwit']
+            for(i=0; i<photos.length; i++)
+            {
+                document.getElementById('polaroid'+polaroids[i]).innerHTML = "<img src='img/"+photos[i]+"' alt='"+names[i]+"'/><p>"+names[i]+"</p>";
+            }
+        </script>
+    </body>
+</html>
