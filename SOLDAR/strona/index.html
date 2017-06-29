@@ -29,27 +29,16 @@
                 </div>
                 <!--duża strona-->
                 <ul class="menu2">
-                    <li id="li1"><a  href="#zdjecie2">Usługi</a></li>
-                    <li id="li2"><a  href="#zdjecie3">Portfolio</a></li>
-                    <li id="li3"><a  href="#zdjecie4">kontakt</a></li>
+                    <li id="li1"><a  href="#tytul">Usługi</a></li>
+                    <li id="li2"><a  href="#naglowek">Portfolio</a></li>
+                    <li id="li3"><a  href="#naglowek2">kontakt</a></li>
                 </ul>
             </div>
         </div>
 
         <div id="content">
 
-            <div id="btn">
-                <button type="button" id="guzik" />
-                <label for="button">
-                    <div id="paski">
-                        <span class="pasy"></span>
-                        <span class="pasy"></span>
-                        <span class="pasy"></span>
-                    </div>
-                </label>
-            </div>
-
-            <div id="zdjecie2" class="parallax">
+            <div id="tytul" class="parallax">
 
                 <h1><span>P</span><span>r</span><span>o</span><span>f</span><span>e</span><span>s</span><span>j</span><span>o</span><span>n</span><span>a</span><span>l</span><span>n</span><span>e</span><span>&nbsp;</span><span>u</span><span>s</span><span>ł</span><span>u</span><span>g</span><span>i</span><span>&nbsp;</span><span>s</span><span>p</span><span>a</span><span>w</span><span>a</span><span>l</span><span>n</span><span>i</span><span>c</span><sapn>z</sapn><span>e</span></h1>
 
@@ -60,13 +49,14 @@
                 <p>
                     <ul class="uslugi">
                         <li class="www">
-                            <span>Strony www:<br/></span><br/>Tworzymy nowoczesne strony www od wypracowanej z&nbsp;klientem koncepcji, poprzez design aż do wdrożenia.
+                            <span>Naprawy i remonty wszelkiego rodzaju elementów i konstrukcji stalowych</span><br/><br/><span>Spawanie metodami MIG, MAG
+                            </span><br/><br/><span>Spawanie dużych elementów</span> 
                         </li>
                         <li class="www">
-                            <span>Identyfikacje wizualne:<br/></span><br/>Profesjonalne propozycje logotypu, dopasowane, nowoczesne wizytówki, projekt papieru firmowego, księgi znaku oraz wiele innych.
+                            <span> Tworzenie wszelkich konstrukcji stalowych od podstaw w ramach posiadanych uprawnień</span><br/><br/><span>Konstrukcje stalowe na indywidualne zamówienie, wykonywane według dokumentacji dostarczonej przez klienta</span>
                         </li>
                         <li class="www">
-                            <span>Reklama zewnętrzna:<br/></span><br/>billboardy, plakaty, ulotki, reklama na samochody oraz wiele więcej...
+                            <span>Spawanie stali czarnej o każdej grubości</span><br/><br/><span>Usługi ślusarskie</span><br/><br/><span>Napawa</span>
                         </li>
                     </ul>
                 </p>
@@ -82,35 +72,36 @@
             <div class="tekst">
                 <div id="galeria">
                     <div class="obrazek">
-                        <img  src="../galeria.jpg" alt="galeria"/>
+                        <img  src="img/1.jpg" alt="galeria"/>
                     </div>
                     <div class="obrazek">
-                        <img src="../mockupy/kalkulator.jpg" alt="kalkulator" />
+                        <img src="img/2.jpg" alt="spawanie1" />
                     </div>
                     <div class="obrazek">
-                        <img src="../mockupy/papier+wizytowka.jpg" alt="papier"/>
+                        <img src="img/4.jpg" alt="spawanie2"/>
                     </div>
                     <div class="obrazek">
-                        <img src="../mockupy/rybnik360.jpg" alt="rybnik"/>
+                        <img src="img/5.jpg" alt="spawanie3"/>
                     </div>
                     <div class="obrazek">
-                        <img src="../mockupy/ulotka.jpg" alt="ulotka"/>
+                        <img src="img/6.jpg" alt="spawanie4"/>
                     </div>
+                    <div class="obrazek">
+                        <img src="img/7.jpg" alt="spawanie4"/>
+                    </div>
+                    
                 </div>
             </div>
         </div>
 
-        <div id="naglowek" class="parallax">
+        <div id="naglowek2" class="parallax">
 
             <h2><span>K</span><span>o</span><span>n</span><span>t</span><span>a</span><span>k</span><span>t</span></h2>
 
         </div>
         <div class="kolor" id="kontakt">
-            <div class="tekst">
-
-                <p>
-                    Yeah, I'll keep that in mind. Good, I'll see you tonight. Don't forget, now, 1:15 a.m., Twin Pines Mall. Right. (All of a sudden all the clocks in the room begin going off. It's very loud.) Are those my clocks I hear?(Biff gets out of the DeLorean. The top of his cane breaks off and stays in there.) Oh, oh, ahh! (Marty and Doc are running down the street carrying Jennifer.) She encountered her future self and went into shock, just as I predicted. She'll be fine - lets get her back to 1985. And then I'm going to destroy the time machine! Destroy it? What about all that stuff about humanity? Where we're going and why?
-                </p>
+            <div id="wizytowka">
+                <img src="img/kontaktSoldar.png" alt="kontakt"/>
             </div>
         </div>
 
@@ -147,15 +138,7 @@
                 return false;
             });
 
-            $("#logo").hide();
-            $("#menu").hide();
-            $(document).ready(function() {
-                $("#btn").click(function() {
-                    $("#menu").stop().slideToggle("normal");
-                    $("#logo").stop().fadeToggle(800);
-                    $("#logo1").stop().fadeToggle(800);
-                });
-            });
+            
 
         </script>
     </body>
