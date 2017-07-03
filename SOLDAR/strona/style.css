@@ -1,7 +1,9 @@
 .wow {
     visibility: hidden;
 }
-
+* {
+    font-family: "Roboto", sans-serif;
+}
 #menu {
     width: 70%;
     height: 70px;
@@ -13,6 +15,29 @@
     right: 0px;
     left: 15%;
     z-index: 10;
+}
+#adres {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top:5%;
+}
+#telefon {
+    float: left;
+    line-height: 1.5;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    padding-top:5%;
+    
+}
+#domek {
+    width: 10%;
+}
+#malpa {
+    width: 10%;
 }
 
 #logo {
@@ -32,12 +57,11 @@
 }
 
 #menu>ul {
-    width: 550px;
     list-style-type: none;
     display: inline-block;
-    margin: 0 20%;
-    padding: auto;
-    margin-left: 315px;
+    margin-top: 0;
+    margin-right: 0;
+    float: right;
 }
 
 
@@ -51,6 +75,9 @@
     display: inline-block;    
     transition: 0.8s;
     letter-spacing: 1px;
+}
+#menu2 {
+    float: right;
 }
 
 #li1 {
@@ -97,9 +124,13 @@
     position: relative;
 }
 
+.uslugi {
+    padding-bottom: 5%;
+}
 .obrazek {
     display: inline-block;
     width: 28%;
+    height: 160px;
     margin-right: 0;
     padding: 2%;
     position: sticky;
@@ -107,12 +138,15 @@
 
 .obrazek img {
     width: 100%;
-    vertical-align: middle;
+    height: 100%;
     padding: 5% 5.5%;
     z-index: 1;
     position: sticky;
 }
-
+#naglowek-uslugi {
+    text-align: center;
+    padding-top: 5%;
+}
 button {
     visibility: visible;
     display: block;
@@ -167,7 +201,7 @@ button {
 }
 
 .www span {
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .www {
@@ -231,18 +265,17 @@ body {
 }
 
 #naglowek {
-    background-image: url("img/13.jpg");
     height: 200px;
     line-height: 200px;
 }
 
 #naglowek2 {
-    background-image: url("img/13.jpg");
     height: 200px;
     line-height: 200px;
 }
 
 #stopka {
+    clear: both;
     background-color: white;
     height: 50px;
     min-width: 70%;
@@ -256,13 +289,10 @@ body {
 
 #wizytowka{
     width:70%!important;
-    height: 30%!important;
+    height: 250px;
+   
 }
 
-#wizytowka img{
-    width: 100%!important;
-    height: 100%!important;
-}
 
 
 /*////////////////////////////////////////////////////*/
@@ -308,6 +338,7 @@ body {
         background-color: none;
         z-index: 10;
     }
+
     ul.menu2 li {
         float: none;
         width: 100%;
@@ -344,26 +375,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -438,18 +461,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+ 
     #stopka {
         background-color: white;
         height: 50px;
@@ -545,26 +557,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -636,18 +640,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -745,26 +738,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -836,18 +821,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -943,26 +917,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -1043,18 +1009,6 @@ body {
         min-width: 100%;
         width: 100%;
         margin: auto;
-    }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
     }
     #stopka {
         background-color: white;
@@ -1152,26 +1106,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -1253,18 +1199,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -1361,26 +1296,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -1462,18 +1389,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -1569,26 +1485,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -1670,18 +1578,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -1779,26 +1676,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -1880,18 +1769,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -1988,26 +1866,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -2089,18 +1959,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -2197,26 +2056,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -2307,18 +2158,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -2414,26 +2254,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -2524,18 +2356,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
@@ -2631,26 +2452,18 @@ body {
         z-index: 10;
     }
     #li1:hover {
-        background-color: rgb(123, 190, 152);
-        color: rgb(209, 97, 90);
         width: 100%;
         z-index: 10;
     }
     #li2:hover {
-        background-color: rgb(209, 97, 90);
-        color: rgb(123, 190, 152);
         width: 100%;
         z-index: 10;
     }
     #li3:hover {
-        background-color: rgb(108, 183, 213);
-        color: rgb(245, 239, 121);
         width: 100%;
         z-index: 10;
     }
     #li4:hover {
-        background-color: rgb(245, 239, 121);
-        color: rgb(108, 183, 213);
         width: 100%;
         z-index: 10;
     }
@@ -2741,18 +2554,7 @@ body {
         width: 100%;
         margin: auto;
     }
-    #zdjecie1 {
-        background-image: url("img/11.jpg");
-    }
-    #zdjecie2 {
-        background-image: url("img/12.jpg");
-    }
-    #zdjecie3 {
-        background-image: url("img/13.jpg");
-    }
-    #zdjecie4 {
-        background-image: url("img/14.jpg");
-    }
+
     #stopka {
         background-color: white;
         height: 50px;
